@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+	whitespace = cr-at-eol
+[user]
+	name = Petro Salema
+	email = git@petrosalema.com
+[color]
+	ui = auto
+[push]
+	# `git push` should only push the current branch
+	default = upstream
+[alias]
+	hist = "log --pretty='%h %Cred%cn%Creset (%Cgreen%cr%Creset) %s'"
+	ffy = "pull --ff-only"
