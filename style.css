@@ -29,7 +29,11 @@ html, body {
 	cursor: default;
 	font: 18px/1.5em 'Source Sans Pro', sans-serif;
 	letter-spacing: 0.05em;
-	background: #39383a;
+	background-color: #39383a;
+	background-image: url(waves.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 	color: #fff;
 	-moz-osx-font-smoothing: grayscale;
 	 -webkit-font-smoothing: antialiased;
@@ -69,6 +73,7 @@ video {
 	height: 336px;
 	-webkit-filter: contrast(120%);
 	filter: sepia(120%);
+	background: transparent;
 }
 h1 {
 	color: #fff;
