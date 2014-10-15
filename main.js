@@ -48,7 +48,7 @@
 		});
 		cover();
 		$('#talk-toggle').on('click', function () {
-			$('#talks').show();
+			$('#talks').css('visibility', 'visible');
 		});
 	});
 
