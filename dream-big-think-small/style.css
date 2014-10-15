@@ -73,6 +73,10 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 	line-height: 40px;
+	-moz-osx-font-smoothing: grayscale;
+	 -webkit-font-smoothing: antialiased;
+	    -moz-font-smoothing: antialiased;
+	         font-smoothing: antialiased;
 }
 
 /* `slides */

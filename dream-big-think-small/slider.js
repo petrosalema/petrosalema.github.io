@@ -60,6 +60,10 @@
 		$slides.css('z-index', min_index);
 		if ($prev) {
 			$prev.stop().css('z-index', max_index -1);
+			if (!$prev.hasClass('preserve')) {
+				$prev.hide();
+				$('.preserve').hide();
+			}
 		}
 		$next.stop().css('z-index', max_index).show();
 	}
@@ -103,16 +107,17 @@
 
 	function mouse_down($event) {
 		var old = current;
-		current = next(old, CYCLE);
-		transition(old, current, 'forward');
+		current = 3 === $event.which ? prev(old, CYCLE) : next(old, CYCLE);
+		transition(old, current);
 	}
 
 	if (window.location.hash) {
 		current = parseInt(location.hash.replace('#', '') || 0, 10) || current;
 	}
 
-	$(document).on('keydown', key_down).on('mousedown', mouse_down).ready(function () {
-		transition(-1, current);
-	});
+	$(document).on('keydown', key_down)
+	           .on('mousedown', mouse_down)
+	           .on('contextmenu', function (e) { return false; })
+	           .ready(function () { transition(-1, current); });
 
 }(window, window.jQuery));
