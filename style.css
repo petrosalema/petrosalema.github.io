@@ -75,6 +75,7 @@ video {
 	   -moz-filter: contrast(120%);
 	        filter: contrast(120%);
 	background: transparent;
+	visibility: hidden;
 }
 h1 {
 	color: #fff;
