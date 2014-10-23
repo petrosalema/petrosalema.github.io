@@ -47,9 +47,12 @@
 			timer = setTimeout(cover, 10);
 		});
 		cover();
-		$inner.css('visibility', 'visible');
 		$('#talk-toggle').on('click', function () {
 			$('#talks').css('visibility', 'visible');
+		});
+		$('video').on('loadeddata', function () {
+			$(this).css('visibility', 'visible');
+			cover();
 		});
 	});
 
