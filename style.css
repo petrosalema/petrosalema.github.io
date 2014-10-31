@@ -73,7 +73,8 @@ video {
 	height: 336px;
 	-webkit-filter: contrast(120%);
 	   -moz-filter: contrast(120%);
-	        filter: contrast(120%);
+	    -ms-filter: contrast(120%);
+	        filter: url('filters.svg#contrast');
 	background: transparent;
 	visibility: hidden;
 }
@@ -81,6 +82,7 @@ h1 {
 	color: #fff;
 	font-weight: normal;
 	opacity: 0.8;
+	filter: alpha(opacity=80);
 	margin: 0;
 }
 .fg { position: relative; }
@@ -88,7 +90,7 @@ h1 {
 .links a {
 	position: relative;
 	display: inline-block;
-	opacity: 0.9;
+	filter: alpha(opacity=90);
 	text-align: center;
 	border: 0;
 	width: 50px;
