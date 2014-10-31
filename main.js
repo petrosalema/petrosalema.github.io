@@ -56,12 +56,12 @@
 		$('#talk-toggle').on('click', function () {
 			$('#talks').css('visibility', 'visible');
 		});
-		//if (!isMobile) {
+		if (!isMobile) {
 			$('video').on('loadeddata', function () {
 				$(this).css('visibility', 'visible');
 				cover();
 			});
-		//}
+		}
 	});
 
 }());
