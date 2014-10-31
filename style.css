@@ -71,10 +71,12 @@ a:hover {
 video {
 	width: 596px;
 	height: 336px;
+	/*
 	-webkit-filter: contrast(120%);
 	   -moz-filter: contrast(120%);
 	    -ms-filter: contrast(120%);
 	        filter: url('filters.svg#contrast');
+	*/
 	background: transparent;
 	visibility: hidden;
 }
