@@ -1,0 +1,400 @@
+@charset 'UTF-8';
+
+/* `fonts */
+@font-face {
+	font-family: 'signika';
+	font-weight: 300;
+	font-style: normal;
+	src: url('Signika-Light-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'signika';
+	font-weight: 700;
+	font-style: normal;
+	src: url('Signika-Bold-webfont.woff') format('woff');
+}
+
+/* `typography */
+.small { font-size: 20px; }
+.thin { font-weight: normal; }
+.big {
+	font-size: 50px;
+	font-weight: bold;
+}
+.very-big {
+	font-size: 180px;
+	font-weight: bold;
+}
+.upper { text-transform: uppercase; }
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+._3d {
+	-webkit-perspective: 200;
+	   -moz-perspective: 200;
+	    -ms-perspective: 200;
+	        perspective: 200;
+
+	/* Needed in Firefox <= 15 to activate 3d acceleration in order to apply
+	   perspective */
+	-moz-transform-style: preserve-3d;
+	-moz-transform: perspective(200px);
+}
+/* This is the element on which to apply transformation */
+._3d>* {
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	    -ms-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+}
+
+/* `colors */
+.dark {
+	background-color: #2b242b;
+	color: #e3e0e3;
+}
+.light {
+	background-color: #e3e0e3;
+	color: #2b242b;
+}
+
+body {
+	overflow: hidden;
+	background: #2b242b;
+	color: #e3e0e3;
+	padding: 0;
+	margin: 0;
+	font-family: 'signika', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.6em;
+}
+
+/* `slides */
+.slides {
+	display: block;
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+.slides>li {
+	display: table;
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.slides>li>* {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* `effects */
+.fadein         .x { opacity: 0; }
+.fadein.active  .x { -webkit-animation: fadein 0.5s ease-in forwards; }
+.fadeout        .y { opacity: 1; }
+.fadeout.active .y { -webkit-animation: fadeout 0.5s ease-in forwards; }
+.slidein .z1, .slidein .z2 { opacity: 0; }
+.slidein.active .z1 {
+	-webkit-animation-name: fadein, shift-left;
+	-webkit-animation-duration: 1s, 1s;
+	-webkit-animation-delay: 0s, 1s;
+	-webkit-animation-fill-mode: forwards, forwards;
+}
+.slidein.active .z2 {
+	-webkit-animation-name:fadein, shift-left, shift-left-2;
+	-webkit-animation-duration: 1s, 1s;
+	-webkit-animation-delay: 1s, 1s;
+	-webkit-animation-fill-mode: forwards, forwards;
+}
+
+.blurry { -webkit-filter: blur(2px); }
+.blurry-gray { -webkit-filter: grayscale(100%) blur(10px); }
+.black-n-white { -webkit-filter: grayscale(100%); }
+
+/* `visibility */
+.opacity-quarter       { opacity: 0.25; }
+.opacity-half          { opacity: 0.50; }
+.opacity-three-quarter { opacity: 0.75; }
+
+/* `animations */
+.active .x.delay0-5 { -webkit-animation-delay:    0.5s; }
+.active .x.delay0   { -webkit-animation-delay:    0s;   }
+.active .x.delay1   { -webkit-animation-delay:    1s;   }
+.active .x.delay1-5 { -webkit-animation-delay:    1.5s; }
+.active .x.delay2   { -webkit-animation-delay:    2s;   }
+.active .x.delay3   { -webkit-animation-delay:    3s;   }
+.active .x.speed2   { -webkit-animation-duration: 1s;   }
+
+
+#slides li:nth-child(1) {
+	xbackground: #970741;
+	xbackground: #F6075A;
+	xbackground: #C80741;
+	xbackground: #8e0732;
+	xbackground: #d92451;
+	xbackground: #232323;
+	xbackground: #EDB948;
+	background: #F4696B;
+}
+
+.slides>li {
+	color: #fff;
+	background-color: #2b242b;
+	background-image: -webkit-radial-gradient(
+		center center,
+		ellipse cover,
+		rgba(0,0,0,0) 0, rgba(0,0,0,0.2) 50%,  rgba(0,0,0,0.3) 100%
+	);
+}
+.slides>li::before {
+	background-image: url(noise.png);
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.09;
+	z-index: 1;
+}
+
+.slides>li>div::before {
+	content: '';
+	display: block;
+	position: absolute;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+}
+
+#slide1>div::before {
+	background-image: url(abstract1.jpg);
+	opacity: 0.75;
+}
+
+.dots>div::before { background-image: url(abstract3.jpg); }
+.dots img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#dots1.fadein.active img:nth-child(1) { -webkit-animation-delay: 0.0s; }
+#dots1.fadein.active img:nth-child(2) { -webkit-animation-delay: 1.0s; }
+#dots1.fadein.active img:nth-child(3) { -webkit-animation-delay: 1.6s; }
+
+#dots2.fadein.active img:nth-child(2) { -webkit-animation-delay: 0.0s; }
+#dots2.fadein.active img:nth-child(3) { -webkit-animation-delay: 0.2s; }
+#dots2.fadein.active img:nth-child(4) { -webkit-animation-delay: 0.5s; }
+#dots2.fadein.active img:nth-child(5) { -webkit-animation-delay: 1.0s; }
+
+#www>div::before { background-image: url(abstract3.jpg); }
+
+#logos>div::before { background-image: url(abstract3.jpg); }
+#logos img {
+	height: 120px;
+	position: absolute;
+}
+#logos img:nth-child(1) { left:  50px;  top:    100px; -webkit-animation-delay: 0.0s; }
+#logos img:nth-child(2) { right: 150px; top:    150px; -webkit-animation-delay: 0.5s; }
+#logos img:nth-child(3) { left:  50px;  top:    50vh;  -webkit-animation-delay: 0.8s; }
+#logos img:nth-child(4) { left:  50vw;  bottom: 50px;  -webkit-animation-delay: 1.0s; }
+#logos img:nth-child(5) { right: 200px; bottom: 200px; -webkit-animation-delay: 1.6s; }
+
+#bill-gates>div::before {
+	background-image: url(abstract4.jpg);
+	background-size: 100% auto;
+	/* -webkit-animation: pushin 10s linear alternate infinite; */
+}
+#bill-gates img {
+	height: 80vh;
+	box-shadow: 0 20px 100px black;
+}
+
+#free>div::before {
+	background-image: url(abstract2.jpg);
+	/* -webkit-animation: pushin 30s linear reverse infinite; */
+}
+#free u {
+	padding: 0 0.2em;
+	text-decoration: none;
+	background: orange;
+}
+
+.number-70>div::before {
+	background-image: url(abstract6.jpg);
+	opacity: 0.3;
+	-webkit-filter: blur(10px);
+}
+.number-70 u {
+	padding: 0 0.2em;
+	text-decoration: none;
+	background: orange;
+}
+
+.stars { background: #f35; }
+.stars>div::before {
+	background-image: url(abstract8.jpg);
+	opacity: 0.7;
+}
+
+#multitouch>div::before { background-image: url(multitouch.jpg); }
+#glasses>div::before { background-image: url(glasses.jpg); }
+#notifications>div::before { background-color: #3b579d; }
+
+#undisruptive1>div span { visibility: hidden; }
+#undisruptive2>div span { opacity: 0.5; }
+
+#context>div::before {
+	/* -webkit-animation: pushin 30s linear infinite; */
+	background-image: url(abstract5.jpg);
+	opacity: 0.75;
+}
+
+#mpesa>div::before {
+	background-image: url(cover1.jpg);
+	opacity: 0.75;
+}
+
+#petrina>div::before {
+	background-image: url(petrina.jpg);
+	opacity: 0.5;
+}
+
+#bajaji>div::before {
+	background-image: url(bajaji.jpg);
+	opacity: 0.5;
+}
+
+#drinks>div::before { background-image: url(petrina-drinks.jpg); }
+#settling>div::before { background-image: url(send-with-mpesa.jpg); }
+
+#mpesa-logo>div::before {
+	background-image: url(mpesa.jpg);
+	opacity: 0.7;
+}
+
+#bitcoin>div::before { background-image: url(bitcoin.jpg); }
+
+#bitcoin2>div::before {
+	background-image: url(bitcoin.jpg);
+	opacity: 0.3;
+	-webkit-filter: blur(10px);
+}
+#bitcoin2 small {
+	font-size: 0.6em;
+	opacity: 0.5;
+}
+#bitcoin2 { line-height: 1.3em; }
+
+#bitcoin3>div::before {
+	background-image: url(bitcoin.jpg);
+	opacity: 0.3;
+	-webkit-filter: blur(10px);
+}
+#bitcoin3 small {
+	font-size: 0.6em;
+	opacity: 0.5;
+}
+#bitcoin3 { line-height: 1.3em; }
+
+#silkroad>div::before { background-image: url(silkroad.jpg); }
+#iphone>div::before { background-image: url(iphone.png); }
+
+#iphone2>div::before {
+	background-image: url(iphone.png);
+	opacity: 0.3;
+	-webkit-filter: blur(10px);
+}
+
+.arch img { height: 60vh; }
+
+.overview img {
+	height: 10vw;
+	display: inline;
+	vertical-align: middle;
+	opacity: 0.9;
+}
+.overview .circle {
+	display: inline-block;
+	border: 20px solid #2b242b;
+	border-radius: 40vw;
+	width: 40vw;
+	height: 40vw;
+	line-height: 36vw;
+	text-align: center;
+}
+.overview .circle.smaller {
+	width: 20vw;
+	height: 20vw;
+	line-height: 17vw;
+}
+.overview.white .circle {
+	border-color: #fff;
+	opacity: 0.8;
+}
+#pie>div::before { background-color: #e4e4e3; }
+#pie img { width: 40vw; }
+
+#agent-1>div::before { background-image: url(agent-1.jpg); }
+#agent-2>div::before { background-image: url(agent-2.jpg); }
+#agent-3>div::before {
+	background-image: url(agent-3.jpg);
+	opacity: 0.3;
+}
+
+#credit-cards img {
+	height: 60vh;
+	display: inin;e
+}
+
+/*
+ * http://tympanus.net/Tutorials/OriginalHoverEffects/index3.html
+ * http://demo.marcofolio.net/3d_animation_css3/
+ * http://www.clicktorelease.com/code/css3dclouds/
+ * http://www.creativebloq.com/css3/animation-with-css3-712437
+ * http://www.css-jquery-design.com/2014/07/animated-bubbles-upwards-continuously-with-pure-css/
+ * http://www.webdesignerdepot.com/2014/04/3-stunning-css-animation-effects-that-will-captivate-your-users/
+ *
+ */
+
+@-webkit-keyframes fadein {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-webkit-keyframes pushin {
+	0%   { background-size: 100% auto; }
+	100% { background-size: 150% auto; }
+}

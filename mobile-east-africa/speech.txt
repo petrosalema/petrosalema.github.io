@@ -1,0 +1,430 @@
+Outline:
+
+# Bend the fish while it is still fresh
+
+There is a Swahili proverb that says: "Samaki mkunje angali mbichi," which means
+"bend a fish while it is still fresh."
+
+Perhaps there are some here who have maturing children who understand quite well
+the sentiment behind that proverb.
+
+But today I want to borrow from this to picture how technology adoption succeeds.
+
+You see, we all know that there are some things that are harder to change once they
+have matured and are set in their way.
+
+# The tendency of systems is to grow complex
+# 0
+
+There is a pattern in life that seems exaggerated in technical systems:
+the tendency of systems is to grow, and as they scale in size they also scale in
+complexity.
+
+# 0 - 0
+
+And the more complex a system is, the harder it is to change it. Drastic changes
+to a system are more easily made when the wood is green--when components and
+patterns are missing, or underdeveloped.
+
+And the hardest form of complexity to manage is where constituent parts of a
+system start depending on another components to work in a specific way.
+
+Add a forth traffic light and you will cause accidents because the system is
+expected to work in a specific way.
+
+The fishermen of East Africa articulated this side affect of maturing in a
+proverb. Once a fish has dried, you're just going to have to cook it as it is.
+
+# www.
+
+Consider the web for a moment. It helps illustrate this because we know that the
+web is still massively potential, but it has also come far enough to see that it
+to already set into some established norms.
+
+# Amazon, eBay, Google, Facebook, Twitter
+
+Why is it that these companies--the most successful companies to have emerged
+from the web--fall into only 2 categories: they are either advertising companies
+or marketplaces.
+
+It is noteworthy that of the web's most successful sofware companies not one of
+them actually sells software.
+
+# Bill Gates
+
+This is remarkable when you consider that at the advent of the web, it was
+precisely the selling of software that turned a nerd into the richest man in the
+world. During that time, you remember that, desktop applications never had any
+advertisments on them. So you can bet that early web companies tried to follow
+the paid software model.
+
+# Free & open
+
+The reason we don't pay for software on the web is not for their lack of trying.
+This came about because one aspect of the web that matured very early on was the
+paradigm that the web was free and open. And so, if you were going to use the
+web to serve software, you couldn't charge the consumer for it. Paywalls and
+subscription services, and freemium are attempts to bend a fish that has already
+dried.
+
+It's important to undestand that the proverbial fish in this illustration is not
+the web technology itself--it is user expectations and society norms surrounding
+the technology.
+
+# Facebook notification
+
+Rather than forcing changes to user behaviour and expectations, platforms that
+gained traction were those that align themselves with user behaviour, and took
+advantage of user norms.
+
+What they did is rather than sell software they use software to either sell
+physical goods, or use software to capture and sell your attention.
+
+They are not so much software companies as they are algorithmically enabled
+market places and algorithmically enabled advertising companies.
+
+# Disrupting technology is by necessity very undisruptive
+
+For a potentially revolutionary technology to gain broad adoption, it cannot do
+that by disrupt the established fundamental pattern of use.
+
+So I start with the web because this is a very familiar terrain for us.
+And I wanted to demonstrate that the shift from software as a product to the
+user as a product is fairly technonic, and it not come about by force new user
+behaviours but by aligning with accepted patterns of user norms.
+
+# Technologies are surfaced though interfaces and interfaces operate on the context of society
+
+Technologies are of little consequence until they are surfaced through an
+acceptable interface. And since consumer products operate in the context of the
+society in which they're users live, a good virtual or physical interface must
+be one that aligns with the accepted norms and practices of the users' societal
+fabric.
+
+And I think that this is what is so brilliantly evidenced by the mobile
+revolution that has taken place in East Africa.
+
+# m-pesa: what permanent disruption looks like
+
+I want, today, to tell you about how East Africa found itself at the forefront
+of digital currencies
+
+I want to tell you of how a society went from a cash-based one to a cash-less
+society, and in the process leap-frogging the West's plastic society
+
+I want to consider how a digital currency becames so imbedded into the financial
+fabric of a society where only 25% of the population had easy access to a bank,
+and where day-long powercuts are still the norm.
+
+# Petrina: cashless in east africa
+
+What I don't mean is that nobody uses cash, but any person in Tanzania
+can live his day and do financial almost every needed fanancial interaction
+without using cash.
+
+# majaji
+# drinks
+# debt resolution
+
+# 70%? use mobile banking
+
+# What is Mpesa?
+# Fiat-backed transferable and storable electronic value
+# phone binary tsh vs card $$ gold
+
+The story of how Tanzania and Kenya found themselves at the for front of 
+digitial currency begins with MPESA
+
+What you have today in much of Kenya and Tanzania is a functioning cashless
+society. Unlike the West, however, this cashless society is not facilitated by
+credit cards but by a digital currency that is stored and transfered through mobile phones.
+
+Mpesa a digital currency that is backed by the local currency. In the same way
+that the dollar used to be backed by gold reserves during the gold-standard,
+likewise mpesa is a shilling-backed transferable/storable eletronic value.
+
+# Bitcoin
+
+Mpesa is the most successful digital currency, but it is not the most famous one.
+The most famous digital currency is Bitcoin.
+
+Let me highlight some key differences between mpesa and bitcoin
+
+# Pegged to local fiat vs free-floating
+# Centralized/peer-to-peer vs decentralizd/peer-to-peer
+# Known identity vs anonymous
+# proprietry vs open source
+# sms/ussd vs internet
+# local vs global
+
+There are many other differences but I highlight these because they are very
+close to the user experience.
+
+Aside from the fact that Mpesa has had incredible support from the governments
+of Kenya and UK, and Safaricom and media, technically, I think that the most
+important difference between is the fact that Mpesa is pegged to fiat on at 1:1 ratio.
+And the fact that the money is not anonymous.
+
+# ...
+# free-floating
+# ...
+# anonymous
+
+The fact that Bitcoin is free-floating and anonymous are some of its strength,
+but when you consider it from a user interface perspective, these same strengths
+are what make it hard to align with  accepted norms and expected patterns.
+
+Those 2 characteristics are Bitcoins strength, but they are also Bitcoins user interface
+problem, because they are so mis-aligned with how we deal with money.
+
+# pirates, silk road, satoshi mount gocks == incompatible with "normal"
+
+When I say bitcoin, those who've heard about it think of a silk road, drugs, a
+pirates, hitmen, and mysterious guy called satoshi, and place called mount gocks
+
+Weired stuff.
+
+The highest level of user experience is the society, and socially bitcoin feel
+incompatible with "normal".
+
+# Bitcoin: Disruptive but in the wrong way
+
+Bitcoin is distruptive, but in relation to mpesa it is also disptive in the wrong way.
+It needs to be to be much more unremarkable.
+
+# apple
+
+mouse, click wheel, multitouch
+
+# Mobile money disruption: nothing to call home about
+
+So I say that mobile money in East Africa is permanent disruption because for
+many of the people who use it. It feels little different as to how you use
+telephones and electricity. It's just a utility--literally nothing to call home
+about. 
+
+Now compare the notition of mpesa and how remarkable it is when you see this:
+picture of a guy with google glasses on his face. And imagine today if you
+walked into the ubahn and everyone had one of these on their faces.  You would
+immediately notice.
+
+You know that technology is permanent disruption when it feels so common place.
+
+
+# aligning technology to culture
+
+Let me go a little into the architecture to show how it works so that we can see
+how technology can be made to align with culture.
+
+bank to super-agents
+
+super-agent
+agents
+mobile users depost and withdraw cash
+mobile users transfer cash with each other or retail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Augmented reality is not disruptive.
+
+
+
+
+It tends to be that it is in those areas of the technological landscape
+where for whatever reason a system is inefficient, broken, or complete that
+the most disruptive changes to an system paradim can be accomplished.
+
+It is on thise places where for whatever reason the proverbial fish is still wet,
+whether from lack of resource, under development, immature markets, that
+disruption can take place.
+
+And that is what mobile banking has accomplished in east africa.
+
+
+	* Google doesn't work until we are condition to put stuff on WWW
+
+
+What are the implications for us as programmers and designers and product
+ people?
+
+Design features and products around things like:
+Attention as ID
+Privacy (facebook began with limiting network)
+Trust (paypal)
+
+
+
+"Technologies fail. That fact is depressingly normal."
+
+
+
+
+` Suprising when it even works
+
+It seems evident to me that as much as we consider the practice of designing and
+building technology projects engineering, there is a good deal of mystery and
+suprise when the final outcome actually works very sucessfully.
+
+It is this that makes it worthwhile not only to discover about new technologies
+that work, but also investigate the mechanisms behind their success.
+
+We have BETAMAC, Diaspora, etc, etc. Of technically well built products that
+didn't make it. Is is timing, pricing, or is it features, ...
+
+In many ways, it may be easier to determine (through a product autopsy) why a
+technology "failed" than it is to figure out why one is currently succeeding.
+
+---
+
+` What does permanent disruption look like?
+
+Let me paint a picture for you with some numbers and then I'll put this in
+anecdotal context.
+
+What is truely remarkable about the emergence of mobile money in East Africa is
+just how thoroughly unremarkable the technology appears on the ground.  Star
+Trek outfit, through up their {Spok's race} salute before attempting an NFC.
+
+So we ask: what does permanent disruption look like? It looks remarkably
+unremarkable!
+
+---
+
+
+design is in the details
+your product design is made out of hundreds of little details
+
+
+banks killed the super agent
+
+
+
+
+
+In this East African nation of 43 million people, almost anyone you meet has
+used a phone to make a transaction. Over 90% of the population has a phone (up
+from just 3% in 1999) and 96% of mobile phone users has used a handset to make
+a mobile payment or for m-banking. Kenyans use their phones to pay electric
+bills, taxi fares, get cash or even buy produce and other essentials in rural
+markets.
+
+
+Smartphones are also gaining ground in African markets though it might take a
+bit longer, say, into 2014, before we see wholesale smartphone penetration
+there. Overall, by the end of the year, 75-80% of the global handset market
+should be dominated by smartphones.
+
+
+Many of our big ideas about development rest on the assumption that the West
+cracked the formula for economic progress sometime in the 19th century, and
+what we need now is for the developing world to ‘catch up’. Even the language
+we use encapsulates this idea, in the division between ‘developed’ and
+‘developing’. 
+
+
+The service was developed between Safaricom and Vodafone, and launched in 2007.
+And it’s not just something used in cities or by big commercial interests. By
+2010, over 50% of Kenya’s population had used it – this means rural villagers
+haggling over produce, then using their Nokias to make the final deal. It means
+Masai herdsmen bringing their phones to market along with their cattle, ready
+to stock up on essentials to bring back to their homes.
+
+
+
+Money is not paper, not plastic, but digital
+
+
+
+In EA, banks and credit card companies simply do not have the hold on society as
+they do here simply because so many people was excluded from their service
+
+Other norms were in place, norms that digital money could help improve.
+
+
+
+
+
+http://voices.nationalgeographic.com/2012/07/04/the-invisible-bank-how-kenya-has-beaten-the-world-in-mobile-money/
+http://www.artypapers.com/ap.log/thread.php?350
+http://www.usnews.com/opinion/blogs/economic-intelligence/2012/04/12/how-cell-phones-are-boosting-kenyas-economy
+http://www.bbc.com/news/business-11793290
+http://blog.unibulmerchantservices.com/m-pesa-by-the-numbers/
+
+
+
+
+mobile money outlet outnumber any other finincial instutution 10 to 1
+why? becaese they are pig-backing on iosos
+
+
+
+
+not banks/atms -> kiosks/umbrella/phones
+not credit cards -> phones
+not social security number -> mobile number + proof of identity
+self-evident 2-factor authentication
+piggy back on road systems for outlets
+piggy back on contact list for network
+piggy back on peer-to-peer sharing eletronic value over mobile (beeping and sharing credits)
+piggy back on cashing in and out from western union
+lack of easy access to banks
+work on feature phones
+no insurance
+pay as you go (bills)
+
+these things were all there already, just not protocalled.
+
+
+bitcoin
+google glasses
+privacy
+wearables
+
+
+
+branding gov media
+but it wouldn't work without getting some things right
+
+
+not easy, automatic or cheap
+
+SnapChat for example did not invent ephemeral messaging, questionable teenage
+behavoir did that perhaps. SnapChat automated the processes of this behavoir, in
+order to mediate the attention of its users. By the way who wants to bet that
+SnapChat is the next advertising company?
+
+
+
+, it is nonetheless informative to note that cell phones have been
+adopted more than five times as fast as fixed line telephone services, which took 100 years to reach 80
+percent of country populations
+
+
+
+iAlthough M‐PESA does not pay interest on deposits, and does not make loans, it can usefully be thought
+of as a bank that provides transaction services and that has operated, until recently, in parallel with the
+formal banking system.
+Safaricom accepts deposits of cash from customers with a Safaricom cell phone SIM card and who have
+registered as M‐PESA users.  Registration is simple, requiring an official form of identification (typically
+the national ID card held by all Kenyans, or a passport) but no other validation documents that are
+typically necessary when a bank account is opened.  Formally, in exchange for cash deposits, Safaricom
+issues a commodity known as “e‐float,” measured in the same units as money, which is held in an
+account under the user’s name.    This account is operated and managed by M‐PESA, and records the
+quantity of e‐float owned by a customer at a given time.  There is no charge for depositing funds, but a
+sliding tariff is levied on withdrawals (for example, the cost of withdrawing $100 is about $1).1
