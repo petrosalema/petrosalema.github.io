@@ -1,0 +1,118 @@
+* { 
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #373737;
+	font-family: 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial', sans-serif;
+	-moz-osx-font-smoothing: grayscale;
+	 -webkit-font-smoothing: antialiased;
+	    -moz-font-smoothing: antialiased;
+	         font-smoothing: antialiased }
+
+h3 {
+	margin: .5em 0;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: left }
+
+a {
+	color: #333;
+	text-decoration: none }
+	a:hover { text-decoration: underline }
+
+b {
+	font-family: 'Open Sans';
+	line-height: 0;
+	font-weight: 700;
+	font-size: 1.3em;
+	padding-left: .1em }
+
+.centered { display: table }
+	.centered>:first-child {
+		display: table-cell;
+		vertical-align: middle }
+
+article {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh }
+	article>* {
+		position: relative;
+		width: 50%;
+		height: 100%;
+		background: #fff }
+
+header {
+	position: relative;
+	padding: 3em;
+	color: #fff;
+
+	background-color: #98c4b4;
+	background-color: #f3d02c;
+	background-color: rgb(168, 86, 239);
+	background-color: rgb(76, 214, 188);
+	background-color: rgb(250, 113, 94); /* tomatoe */
+	background-color: rgb(75, 181, 234); /* blue */
+	background-color: rgb(77, 214, 189); /* torquois */
+	background-color: rgb(253, 95, 101); /* red */
+	background-color: rgb(238, 202, 70); /* mustard */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center }
+	header>div { position: relative }
+	header h1 {
+		margin: 0;
+		padding: 0;
+		line-height: .8em;
+		letter-spacing: -.03em;
+		font-size: 70px;
+		font-weight: 700 }
+	header::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -50px;
+		width: 100vw;
+		height: 100%;
+		background-size: 80vh;
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-image: url(portrait.png) }
+
+section { padding: 3em 10vw }
+	section>div>div {
+		max-width: 500px;
+		margin: 0 auto }
+	section>div>div>div { text-transform: uppercase }
+	section h2 {
+		margin: 0;
+		padding: 0;
+		line-height: 1em;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 50px;
+		font-family: 'Playfair Display', serif }
+	section h3 {
+		display: inline-block;
+		background: red;
+	}
+	section h3 span {
+		display: inline-block;
+		background: yellow;
+		font-size: .5em;
+		vertical-align: middle;
+	}
+	section p {
+		margin: 0;
+		padding: 0;
+		line-height: 1.4em }
