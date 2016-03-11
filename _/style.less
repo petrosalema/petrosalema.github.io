@@ -1,3 +1,21 @@
+
+@keycolor: rgb(168, 86, 239);
+@keycolor: rgb(76, 214, 188);
+@keycolor: rgb(75, 181, 234); // blue
+@keycolor: rgb(77, 214, 189); // torquois
+@keycolor: rgb(250, 113, 94); // tomatoe
+@keycolor: rgb(238, 202, 70); // mustard
+@keycolor: rgb(253, 95, 101); // red
+@keycolor: #f3d02c;
+@keycolor: #98c4b4;
+@keycolor: #19cf8c;
+@keycolor: #fc5253; // bright red
+
+@black: #373737;
+
+@easing  : cubic-bezier(.1,.82,.25,1);
+@easing2 : cubic-bezier(.24, 2, .27, .26);
+
 * { 
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -9,74 +27,96 @@ html, body {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	color: #373737;
+	color: @black;
 	font-family: 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial', sans-serif;
 	-moz-osx-font-smoothing: grayscale;
 	 -webkit-font-smoothing: antialiased;
 	    -moz-font-smoothing: antialiased;
-	         font-smoothing: antialiased }
+	         font-smoothing: antialiased;
+}
 
 h3 {
 	margin: .5em 0;
 	font-size: 25px;
 	font-weight: 300;
-	text-align: left }
+	text-align: left;
+}
 
 a {
-	color: #333;
-	text-decoration: none }
-	a:hover { text-decoration: underline }
+	color: @black;
+	text-decoration: none;
+	transition: color .2s @easing;
+	&:hover {
+		color: @keycolor;
+		text-decoration: none;
+	}
+}
 
 b {
 	font-family: 'Open Sans';
 	line-height: 0;
 	font-weight: 700;
 	font-size: 1.3em;
-	padding-left: .1em }
+	padding-left: .1em;
+}
 
-.centered { display: table }
-	.centered>:first-child {
+.centered {
+	display: table;
+	&>:first-child {
 		display: table-cell;
 		vertical-align: middle }
+}
 
 article {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	height: 100vh }
-	article>* {
+	height: 100vh;
+	&>* {
 		position: relative;
 		width: 50%;
 		height: 100%;
 		background: #fff }
+}
 
 header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	position: relative;
 	padding: 3em;
 	color: #fff;
 
-	background-color: #98c4b4;
-	background-color: #f3d02c;
-	background-color: rgb(168, 86, 239);
-	background-color: rgb(76, 214, 188);
-	background-color: rgb(250, 113, 94); /* tomatoe */
-	background-color: rgb(75, 181, 234); /* blue */
-	background-color: rgb(77, 214, 189); /* torquois */
-	background-color: rgb(253, 95, 101); /* red */
-	background-color: rgb(238, 202, 70); /* mustard */
+	background: @keycolor;
 
-	display: flex;
-	flex-direction: row;
-	align-items: center }
-	header>div { position: relative }
-	header h1 {
+	&>div { position: relative }
+
+	text-shadow: 0 0 1em @keycolor;
+
+	h1 {
 		margin: 0;
 		padding: 0;
 		line-height: .8em;
-		letter-spacing: -.03em;
+		letter-spacing: -.02em;
 		font-size: 70px;
 		font-weight: 700 }
-	header::before {
+
+	#connect-icons {
+		margin-top: 1em;
+		a {
+			margin-right: .5em;
+			&:hover {
+				display: inline-block;
+				svg { fill: @black }
+			}
+		}
+		svg {
+			fill: #fff;
+			width: 32px;
+		}
+	}
+
+	&::before {
 		content: '';
 		display: block;
 		position: absolute;
@@ -86,33 +126,43 @@ header {
 		height: 100%;
 		background-size: 80vh;
 		background-repeat: no-repeat;
-		background-position: right bottom;
-		background-image: url(portrait.png) }
+		background-position: 65vw 10vh;
+		background-image: url(static/portrait.png);
+		-webkit-filter: grayscale(1) contrast(0.7);
+	}
+}
 
-section { padding: 3em 10vw }
-	section>div>div {
+section {
+	padding: 3em 10vw;
+
+	&>div>div {
 		max-width: 500px;
-		margin: 0 auto }
-	section>div>div>div { text-transform: uppercase }
-	section h2 {
+		margin: 0 auto;
+		&>div { text-transform: uppercase }
+	}
+
+	h2 {
 		margin: 0;
 		padding: 0;
 		line-height: 1em;
 		text-transform: uppercase;
 		font-weight: 700;
 		font-size: 50px;
-		font-family: 'Playfair Display', serif }
-	section h3 {
-		display: inline-block;
-		background: red;
+		font-family: 'Playfair Display', serif;
 	}
-	section h3 span {
+
+	h3 {
 		display: inline-block;
-		background: yellow;
-		font-size: .5em;
-		vertical-align: middle;
+		a {
+			font-weight: 700;
+			display: inline-block;
+			margin-top: -.3em;
+			font-size: .7em;
+			vertical-align: middle }
 	}
-	section p {
+
+	p {
 		margin: 0;
 		padding: 0;
 		line-height: 1.4em }
+}

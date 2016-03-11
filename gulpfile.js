@@ -1,19 +1,19 @@
-var concat = require('gulp-concat'),
-    debug = require('gulp-debug'),
+var _if = require('gulp-if'),
+    concat = require('gulp-concat'),
     cssnano = require('gulp-cssnano'),
+    debug = require('gulp-debug'),
     del = require('del'),
     gulp = require('gulp'),
     gulpFilter = require('gulp-filter'),
-    _if = require('gulp-if'),
-    util = require('gulp-util'),
     inject = require('gulp-inject'),
     insertLines = require('gulp-insert-lines'),
     less = require('gulp-less'),
     livereload = require('gulp-livereload'),
     mergeStream = require('merge-stream'),
     path = require('path'),
+    runSequence = require('run-sequence')
     sourcemaps = require('gulp-sourcemaps'),
-    runSequence = require('run-sequence');
+    util = require('gulp-util');
 
 var environment = process.env.NODE_ENV || 'development';
 var sourceDir = '_';
@@ -30,7 +30,7 @@ function relative(filepath) {
 // `clean
 gulp.task('clean', function () {
 	log('No Clean...');
-	//return del(['index.html', 'style.css']);
+	return del(['index.html', 'style.css']);
 });
 
 // `css
@@ -82,7 +82,8 @@ gulp.task('watch', ['build'], function () {
 	var html = path.join(sourceDir, '**', '*.html');
 	gulp.watch(less, ['css']);
 	gulp.watch(html, ['html']);
-	gulp.watch([buildDir, '!**/*.map']).on('change', function (file) {
+	gulp.watch([sourceDir]).on('change', function (file) {
+		log('Changes...');
 		livereload.changed(file.path);
 	});
 });
