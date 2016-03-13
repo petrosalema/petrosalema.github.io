@@ -16,8 +16,8 @@ var _if = require('gulp-if'),
     util = require('gulp-util');
 
 var environment = process.env.NODE_ENV || 'development';
-var sourceDir = '_';
-var buildDir = '.';
+var sourceDir = 'src';
+var buildDir = 'build';
 
 function log(message) {
 	util.log(util.colors.black.bgWhite(message));
@@ -29,8 +29,8 @@ function relative(filepath) {
 
 // `clean
 gulp.task('clean', function () {
-	log('No Clean...');
-	return del(['index.html', 'style.css']);
+	log('Clean...');
+	return del([buildDir]);
 });
 
 // `css
@@ -51,8 +51,7 @@ gulp.task('css', function () {
 
 // `html (index.html with injected css and js includes)
 gulp.task('html', function () {
-	var js = path.join('script.js');
-	var css = path.join('*.css');
+	var css = path.join('build', '**', '*.css');
 	var injectOptions = {
 		addRootSlash: false,
 		ignorePath: 'build',
@@ -61,7 +60,7 @@ gulp.task('html', function () {
 	};
 	var injectLiveReload = process.argv.indexOf('--livereload') > 0;
 	return gulp.src(path.join(sourceDir, 'index.html'))
-		.pipe(inject(gulp.src(js, { read: false }), injectOptions))
+		//.pipe(inject(gulp.src(js, { read: false }), injectOptions))
 		.pipe(inject(gulp.src(css, { read: false }), injectOptions))
 		.pipe(_if(injectLiveReload, insertLines({
 			before: /<\/body>/,
@@ -70,20 +69,28 @@ gulp.task('html', function () {
 		.pipe(gulp.dest(buildDir));
 });
 
+// `static
+gulp.task('static', function () {
+	var src = path.join('static', '**');
+	var dst = path.join('build', 'static');
+	return gulp.src(src).pipe(gulp.dest(dst));
+});
+
 // `build
 gulp.task('build', function (done) {
-	runSequence('clean', ['css'], 'html', done);
+	runSequence('clean', ['css'], 'html', 'static', done);
 });
 
 // `watch
 gulp.task('watch', ['build'], function () {
-	livereload.listen({ quiet: true });
+	var build = path.join(buildDir, '**');
 	var less = path.join(sourceDir, '**', '*.less');
 	var html = path.join(sourceDir, '**', '*.html');
 	gulp.watch(less, ['css']);
 	gulp.watch(html, ['html']);
-	gulp.watch([sourceDir]).on('change', function (file) {
-		log('Changes...');
+	gulp.watch(build).on('change', function (file) {
+		log('Files changed...', file.path);
 		livereload.changed(file.path);
 	});
+	livereload.listen({ quiet: false });
 });
