@@ -20,6 +20,7 @@ $brand-color: rgb(253, 95, 101); // red
 $brand-color: #f3d02c;
 $brand-color: #98c4b4;
 $brand-color: #19cf8c;
+$brand-color: #fec147;
 $brand-color: #fc5253; // bright red
 
 $text-color: #373737;
@@ -138,7 +139,9 @@ header {
 		background-repeat: no-repeat;
 		background-position: right 10vh;
 		background-image: url(../static/portrait.png);
-		-webkit-filter: grayscale(1) contrast(0.7);
+		-webkit-filter: contrast(0.7);
+		   -moz-filter: contrast(0.7);
+		        filter: contrast(0.7);
 	}
 }
 

@@ -15,6 +15,31 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://petrosalema.com" # the base hostname & protocol for your site
 twitter_username: petrosalema
 github_username:  petrosalema
+exclude: [.git, .gitignore]
 
 # Build settings
 markdown: kramdown
+
+
+# My book shelf
+
+# Murphy Brown
+# The Cry of The Soul
+# Counterfeit Gods
+# Book me to speak at your conference
+# For people who want to make a difference
+# step through still as you hover or draf over image
+#
+# My is Petro, and I work with people who want to make a difference.
+# My mission is to...
+#
+#
+# http://www.elliotmidson.com/
+# http://www.clementbrichon.com/work/takeit-website/
+# http://diegoaguilar.com/
+# http://henrikandsofia.com/
+#
+#
+# https://jekyllrb.com/docs/variables/
+# https://jekyllrb.com/docs/frontmatter/
+# https://jekyllrb.com/docs/structure/
