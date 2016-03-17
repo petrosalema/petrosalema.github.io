@@ -1,14 +1,13 @@
 @import "colors";
 
 .nav-icon {
+	cursor: pointer;
 	position: fixed;
 	z-index: 99999;
-	display: block;
+	display: inline-block;
 	top: 0;
 	right: 0;
 	padding: 30px 30px 40px;
-    position: absolute;
-	cursor: pointer;
 }
 
 .nav-icon b {
