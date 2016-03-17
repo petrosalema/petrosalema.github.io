@@ -1,28 +1,24 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Petro Salema &bull; Designer &middot; Programmer &middot; Speaker
-email: contact@petrosalema.com
+
 description: > # this means to ignore newlines until "baseurl:"
   My mission is to bring the promises of the future into the present through
   technology, design and truth.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://petrosalema.com" # the base hostname & protocol for your site
-twitter_username: petrosalema
-github_username:  petrosalema
-exclude: [.git, .gitignore]
 
-# Build settings
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "http://petrosalema.com" # the base hostname & protocol for your site
+
+exclude:
+    - git
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+
 markdown: kramdown
 
 
 # My book shelf
-
 # Murphy Brown
 # The Cry of The Soul
 # Counterfeit Gods
@@ -33,7 +29,6 @@ markdown: kramdown
 # My is Petro, and I work with people who want to make a difference.
 # My mission is to...
 #
-#
 # http://www.elliotmidson.com/
 # http://www.clementbrichon.com/work/takeit-website/
 # http://diegoaguilar.com/
@@ -43,3 +38,20 @@ markdown: kramdown
 # https://jekyllrb.com/docs/variables/
 # https://jekyllrb.com/docs/frontmatter/
 # https://jekyllrb.com/docs/structure/
+# https://github.com/nielsenramon/nielsenramon.com
+# http://www.anatoliygromov.com/
+#
+#Over the past 2 years, I've worked as the Head of Online Media Management at
+#LOOP in Berlin where I was responsible for all online marketing activities. My
+#passion for semantics, analytical correlations and psychological user patterns
+#led me to dig deeper into the field of User Experience. I am currently seeking
+#out new challenges as a product manager, where I can combine my digital
+#marketing background with my knowledge of UX research and strategy.
+#
+# Creative Direction
+# 
+# width 0.5s cubic-bezier(1.000, 0.000, 0.000, 1.000) --> http://kasperlaigaard.com/
+#
+# http://www.taylorevans.co/ -> image zoooming
+#
+#

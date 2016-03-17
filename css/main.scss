@@ -3,6 +3,7 @@
 ---
 
 @charset 'utf-8';
+@import "nav-icon";
 
 $base-font-family : 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
 $base-font-size   :   16px;
@@ -17,11 +18,13 @@ $brand-color: rgb(77, 214, 189); // torquois
 $brand-color: rgb(250, 113, 94); // tomatoe
 $brand-color: rgb(238, 202, 70); // mustard
 $brand-color: rgb(253, 95, 101); // red
+$brand-color: #f5263a; // brilliant red
 $brand-color: #f3d02c;
 $brand-color: #98c4b4;
 $brand-color: #19cf8c;
 $brand-color: #fec147;
 $brand-color: #fc5253; // bright red
+// fg #f64028 - bg #e1e1dc
 
 $text-color: #373737;
 
@@ -58,7 +61,7 @@ h3 {
 a {
 	color: $text-color;
 	text-decoration: none;
-	transition: color .2s $easing;
+	transition: color .2s $easing, transform .6s $easing;
 	&:hover {
 		color: $brand-color;
 		text-decoration: none;
@@ -179,3 +182,43 @@ section {
 		padding: 0;
 		line-height: 1.4em }
 }
+
+#fullscreen-menu {
+	z-index: 9;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: $brand-color;
+	opacity: 0.95;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	b {
+		font-size: 1em;
+		padding-left: 0;
+	}
+	nav {
+		top: 50%;
+		width: 100%;
+		position: absolute;
+		transform: translateY(-50%);
+		ul {
+			list-style: none;
+			li {
+				margin: 0;
+				a {
+					display: block;
+					line-height: 120px;
+					color: #fff;
+					&:hover {
+						color: $text-color;
+						transform: scale3d(.9,.9,.9);
+					}
+				}
+			}
+		}
+	}
+}
+
