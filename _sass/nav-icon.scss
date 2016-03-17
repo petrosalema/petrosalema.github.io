@@ -1,45 +1,52 @@
+@import "colors", "easing";
+
 .nav-icon {
-    margin-top: 35px;
-    background: #000;
-    height: 2px!important;
-    width: 24px;
+	z-index: 99999;
+	display: block;
+	top: 0;
+	right: 0;
+	padding: 30px 30px 40px;
     position: absolute;
-    transform: translateY(-50%)
+	cursor: pointer;
 }
 
-.nav-icon::after, .nav-icon::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: inherit;
-    transform: translateZ(0);
-    backface-visibility: hidden;
-    transition: all .25s ease;
+.nav-icon b {
+	display: block;
+    width: 25px;
+    height: 2px;
+	margin-top: 8px;
+    background: $text-color;
+    transform: translateY(-50%);
+	transition: background .3s $easing;
+
+	&::after, &::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		background-color: inherit;
+		transform: translateZ(0);
+		backface-visibility: hidden;
+		transition: all .3s $easing;
+	}
 }
 
-.nav-icon::before {
-    transform: translateY(-6px);
+.nav-icon b {
+	&::before { transform: translateY(-6px) }
+	&::after { transform: translateY(6px) }
 }
 
-.nav-icon::after {
-    transform: translateY(6px);
+.nav-icon:hover b {
+	&::before { transform: translateY(-8px) }
+	&::after { transform: translateY(8px) }
 }
 
-.nav-icon.opened::before {
-    transform: rotate(45deg);
+.nav-icon.opened b {
+	background: transparent;
+	&::before { transform: rotate(45deg) }
+	&::after { transform: rotate(-45deg) }
+	&::before, &::after { background: $text-color }
 }
 
-.nav-icon.opened::after {
-    transform: rotate(-45deg);
-}
-
-.nav-icon:hover::before {
-    transform: translateY(-8px)
-}
-
-.nav-icon:hover::after {
-    transform: translateY(8px)
-}
