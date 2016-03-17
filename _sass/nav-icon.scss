@@ -1,6 +1,7 @@
-@import "colors", "easing";
+@import "colors";
 
 .nav-icon {
+	position: fixed;
 	z-index: 99999;
 	display: block;
 	top: 0;
@@ -17,7 +18,7 @@
 	margin-top: 8px;
     background: $text-color;
     transform: translateY(-50%);
-	transition: background .3s $easing;
+	transition: background .2s ease;
 
 	&::after, &::before {
 		content: "";
@@ -29,20 +30,17 @@
 		background-color: inherit;
 		transform: translateZ(0);
 		backface-visibility: hidden;
-		transition: all .3s $easing;
+		transition: all .2s ease;
 	}
 }
-
 .nav-icon b {
 	&::before { transform: translateY(-6px) }
 	&::after { transform: translateY(6px) }
 }
-
 .nav-icon:hover b {
 	&::before { transform: translateY(-8px) }
 	&::after { transform: translateY(8px) }
 }
-
 .nav-icon.opened b {
 	background: transparent;
 	&::before { transform: rotate(45deg) }

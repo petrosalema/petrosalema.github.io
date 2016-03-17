@@ -1,8 +1,7 @@
 (function () {
-	var button = document.querySelector('.nav-icon');
-	button.addEventListener('click', function (event) {
-		event.target.classList.toggle('opened');
-		document.querySelector('#fullscreen-menu').classList.toggle('opened');
+	'use strict';
+	$('.nav-icon').on('click', function (event) {
+		$(event.target).closest('.nav-icon').toggleClass('opened');
+		$('#fullscreen-menu').toggleClass('opened');
 	});
-	console.log(navIcon);
 }());
