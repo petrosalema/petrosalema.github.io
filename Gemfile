@@ -11,4 +11,4 @@ gem 'kramdown', '~> 1.3'
 
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem 'github-pages', versions['github-pages']
+# gem 'github-pages', versions['github-pages']

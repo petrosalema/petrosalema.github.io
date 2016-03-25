@@ -18,8 +18,6 @@
 		padding: 3em;
 		color: #fff;
 		background: $brand-color;
-		//text-shadow: 0 0 1em $brand-color;
-
 		&>div { position: relative }
 
 		h1 {
@@ -34,7 +32,6 @@
 				padding: 0;
 			}
 		}
-
 		&::before {
 			content: '';
 			display: block;
@@ -56,6 +53,7 @@
 	article {
 		padding: 3em 10vw;
 		&>div>div {
+			position: relative;
 			max-width: 500px;
 			margin: 0 auto;
 			&>div { text-transform: uppercase }
