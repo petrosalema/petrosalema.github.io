@@ -4,7 +4,7 @@
 
 @charset 'utf-8';
 
-@import "colors", "easing", "nav-icon", "masthead", "fullscreen-menu";
+@import "colors", "easing", "nav-icon", "masthead", "fullscreen-menu", "article";
 
 $base-font-family : 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
 $base-font-size   :   16px;
@@ -169,3 +169,14 @@ b {
 	}
 }
 
+a.logo {
+	z-index: 999;
+	position: absolute;
+	margin: 40px 60px;
+	color: rgba(255,255,255,0.7);
+	font-weight: 700;
+	font-size: 30px;
+	line-height: .9em;
+	b { color: #fff }
+	&:hover { color: #fff }
+}
