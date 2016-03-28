@@ -5,6 +5,8 @@ date:   0000-01-01 00:00:00 +0000
 category: articles
 permalink: articles/a-web-beyond-touch
 published: false
+cover: http://40.media.tumblr.com/938bda883a3173001a2ff4545dd056e3/tumblr_mrzw5cMGPb1re6xsco1_1280.jpg
+summary: one two three
 ---
 
 the epoch was in 1989

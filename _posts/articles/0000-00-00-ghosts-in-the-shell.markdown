@@ -4,6 +4,8 @@ title:  "Ghosts In The Shell"
 date:   0000-01-01 00:00:00 +0000
 category: articles
 permalink: articles/ghosts-in-the-shell
+cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&fit=crop&fm=jpg&h=1350&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300
+summary: Future machines...
 ---
 
 They say that you see your whole life flashing before your eyes the moment you
