@@ -12,6 +12,14 @@ They say that you see your whole life flashing before your eyes the moment you
 think your going to die, but that's not the way it happened with me. What I
 remember was a grass... lot of grass.
 
+<div class="paragraph">
+
+<div class="card float-left">
+	<div>
+		left
+	</div>
+</div>
+
 As I was running for my six-year-old life, I remember the feeling of grass
 rushing along my shins and we ran through the field I remember the sound of the grass as our pursuer was
 coming behind us I also remember the site of the machete the landed literally
@@ -19,7 +27,17 @@ a few feet away from my uncles let me tell you what happened
 true story there was this man whose girl who lives in this town where I grew up
 in the man's name was working on this is a true story why killer was a notorious
 local mad man I'm not talking Jon Hamm Madison Avenue the guy you see on TV mad
-man I'm talking crazy I'm gonna kill you mad man it's a one day my friend and I
+man I'm talking crazy I'm gonna kill you mad man.
+
+</div>
+
+<div class="card">
+	<div>
+		full
+	</div>
+</div>
+
+it's a one day my friend and I
 were walking home from preschool and walking down a tree along the fields in
 Tanzania and as we walk we notice it as a gentleman walking on the road we are
 on the trail is on the main road a little distance behind us and we notice
@@ -28,6 +46,17 @@ walking behind you carrying a machete in Tanzania nothing to go home about excep
 we noticed that this man was working crazy as all get out and armed and my
 genius friend decided that this was the perfect moment to provoke a Killa
 so what he does if he turns around and yours Waikoloa Beach ah which means
+
+
+<div class="paragraph">
+
+<div class="card float-right">
+	<div>
+		right
+	</div>
+</div>
+
+
 Wauchula you nutcase and so what what it does is he set his attention on us and
 this looks coming to console his face as though this seems like a particularly
 beautiful day to kill me thirty six-year-old breath no kidding the guy
@@ -37,6 +66,17 @@ legs could carry are dwindling lifespans now most of us here I would guess have
 never been chased by a machete-wielding madman but I would venture to guess that
 every single one of us here knows the experience called fight or flight by our
 flight it's that moment of amazing mental efficiency where the human
+
+</div>
+
+<div class="paragraph">
+
+	<div class="card float-left hang-out">
+		<div>
+			left
+		</div>
+	</div>
+
 operating system on the onslaught of all these signals and streams and messages
 coming in distilled innumerable variables down to a surprisingly clear
 simple single binary decision put them up by our flight and in that moment we
@@ -44,6 +84,13 @@ have this mechanism in others before it even gets to our our consciousness which
 determines what information in our surrounding in our context is useful to
 bring it to our awareness that we have like an interface and the tension
 firewall a load balancer inside your head which which tells us the smells are
+
+	<div class="card float-right hang-out">
+		<div>
+			right
+		</div>
+	</div>
+
 the useful to these go to your attention span the sound of aggressive that you
 should go to attention span memories of your homework is that useful that going
 to attention span and the purpose of deciding and and and prevented from
@@ -51,6 +98,16 @@ going into attention span is to allow your attention span to be able to be
 used for the maximum possibility of success in your living situation in my
 episode with whitey la Madeleine jazz band was filled with grass because
 that's what are stapled but the point is
+
+	<div class="card">
+		<div>
+			center
+		</div>
+	</div>
+
+</div>
+
+<div class="two-col">
 kitchen is a scarce commodity in our body in our minds and we have the
 inbuilt mechanism which helps us control that we don't overload capacity and so
 what you experience is tunnel vision and what happened the tunnel vision is a
@@ -71,6 +128,15 @@ screen are paying attention to the color of the curtains for the Lions on the
 floor what we see on the screen a ballerina dancer but what you're
 actually proceeding is much more information than that but that's not
 useful what is useful what is interesting is a ballerina dancing were
+
+	<div class="card">
+		<div>
+			center
+		</div>
+	</div>
+
+</div>
+
 very impressed with our body's ability to sense things and gather information
 about the surroundings but we also take for granted how crucial it is that for
 all the information that we are receiving a processing and we have
@@ -92,6 +158,7 @@ that there are limited by their bandwidth and our bodies and our minds
 are in it as an information system and the digital ecosystem and environment we
 live in is also an information system and it has but it has a bandwidth limit
 as well
+
 technology only had its meaning and context in relationship to human beings
 and as soon as a human in the Human Information System constant contact with
 the digital information systems the limiting bandwidth is not what our
