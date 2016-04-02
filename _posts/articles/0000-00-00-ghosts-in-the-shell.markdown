@@ -8,52 +8,63 @@ cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy
 summary: The future of UX is not look or feel but identity
 ---
 
-> They say that you see your whole life flashing before your eyes the moment you
-> think you are about to die. But that's not how it happened with me. What I
-> remember was grass---lots of it.
+>They say that you see your whole life flashing before your eyes the moment you
+>think you're about to die. But that’s not how it happened with me. What I
+>remember was grass---lots of it.
 
-I nearly didn't live long enough to see my seventh birthday. When I was just six
-years old, I learnt the hard way that death can come as quickly as your next
+
+I nearly didn’t live long enough to see my seventh birthday. I was just six
+years old when I learnt that a brush with death can come as suddenly as a bad
 punch line.
 
-Come to think about it, I learnt a lot that day, like that a truly crazy person,
-sufficiently enraged, wasn't necessarily going to be encumbered by the
-pedestrian inhibitions that keep most people from killing brats. Or that the
-butt of your joke better not have his machete at hand, and his screws off,
-because that's much how I found myself flirting with an early grave and
+That day we learnt that children weren't to talk to strangers---especially
+strangers holding machetes, and known to have psychotic violent spells. Anyway,
+this is how I found myself flirting with an early grave and desperately
 contemplating grass.
 
 More than 20 years later, as I sought a conceptual framework to describe the
-potential paradigm-shift in human computer interaction, I would be struck at how
-appropriate it was, that in the near death experience, one would think of grass.
+potential paradigm-shift in human computer interaction, it struck me just  how
+appropriate it was, that in a near death experience, one would find himself
+primarily with grass on his mind.
 
-It all comes to down to context you'll see.
 
-<div class="card">
+It all comes to down to context you’ll see.
+
+<div class="card backdropped">
+	<!-- video class="bg" autoplay="true" loop="true" src="http://petrosalema.com/interfaces-that-think/grass.mp4"></video -->
+	<div>
 		<p>
-			When I recall that early brush-in with death, what I remember is how
-			the grass felt like whipping my shins; my 6-year old legs racing to
-			carry my short and dwindling lifespan through tall savannah grass. I
-			remember the terrorizing swoosh and crunching sound the grass
-			made&mdash;getting louder in the narrowing distance between me and
-			the man gaining on us. I remember the vivid flash of the machete
-			landing in the grass just feets from my heels. But mainly, I
-			remember grass.
+			What I remember was the grass whipping my shins, as my 6-year old
+			legs raced to carry my short and dwindling lifespan through savannah
+			grass.
 		</p>
+
+		<p>
+			I remember the terrible swooshing sounds the grass made in the
+			narrowing distance between me and the man behind me.
+		</p>
+		
+		<p>
+			I remember the machete landing with a flash in the grass just feets
+			from my heels.
+		</p>
+		
+		<p>But mainly, I remember grass.</p>
+	</div>
 </div>
 
-#True Story
+##A True Story
 
-I nearly died on the road home from preschool. We saw him when he was about 50
-meters behind us on our foot path, minding his own business. The fact that he
-carried a machete was hardly alarming.  Machetes were everywhere in Tanzania.
-Everyone has a "panga." No, what was alarming wasn't the machete, but the man to
-whom it was attach. The distinctive figure walking up the road was that of
-Bwakila.
+I nearly died on a road home from preschool. We saw him when he was about 50
+meters behind us, minding his own business, on our footpath.
 
-Bwakila was crazy. His screws weren't loose---they were all off---each and every
-single one of them. Bwakila was pysch-ward crazy, and armed, and just down the
-road.
+The fact that he carried a machete was hardly alarming.  Machetes were
+everywhere in Tanzania; everyone owned a "panga." No, what was alarming wasn't
+the machete, but the man holding the machete. Behind us was the very distinctive
+figure of a man called Bwakila---the local bonafide mad man.
+
+Bwakila screws weren't just loose---they were all off---each and every one of
+them. Bwakila was crazy, and armed, and approaching.
 
 And it was at this moment that my genius friend thought it would by funny to
 provoke Bwakila into blind murderous rage. (I guess, in my friends defence, it
