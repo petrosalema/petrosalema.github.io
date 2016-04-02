@@ -1,22 +1,81 @@
 ---
 layout: article
-title:  "Ghosts In The Shell"
-date:   0000-01-01 00:00:00 +0000
+title: "Ghosts In The Shell"
+date: 0000-01-01 00:00:00 +0000
 category: articles
 permalink: articles/ghosts-in-the-shell
 cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&fit=crop&fm=jpg&h=1350&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300
-summary: Future machines...
+summary: The future of UX is not look or feel but identity
 ---
 
-They say that you see your whole life flashing before your eyes the moment you
-think your going to die, but that's not the way it happened with me. What I
-remember was a grass... lot of grass.
+> They say that you see your whole life flashing before your eyes the moment you
+> think you are about to die. But that's not how it happened with me. What I
+> remember was grass---lots of it.
+
+I very nearly didn't make it to see my seventh birthday because when I was six
+years old, I learnt---the hard way---that a truely crazy person, when angry
+enough, really didn't have the same inhibitions that most people had with the
+idea of killing brat children.
+
+More than 20 years later, as I sought a conceptual framework to describe the
+potential paradigm-shift in human computer interaction, I would be struck at how
+appropriate it was, that in the near death experience, one would think of grass.
+
+It all has to do with context you see.
+
+<div class="card">
+	<p>
+		When I recall that early brush-in with death, what I remember is how the
+		grass felt like whipping my shins; my 6-year old legs racing to carry my
+		short and dwindling lifespan through tall savannah grass. I remember the
+		terrorizing swoosh and crunching sound the grass made---getting louder
+		in the narrowing distance between me and the man gaining on us. I
+		remember the vivid flash of the machete landing in the grass just feets
+		from my heels. But mainly, I remember grass.
+	</p>
+</div>
+
+#True Story
+
+My near death experience happened on the road home from preschool. We saw him
+when he was about 50 meters behind us on our foot path, minding his own
+business. The fact that he carried a machete was hardly alarming.  Machetes were
+everywhere in Tanzania. Everyone has a "panga." What was alarming, however, was
+the fact that the man walking up the road was Bwakila.
+
+Bwakila was crazy. A bonified local mad man. His screws weren't lose, they were
+all off---each and every single one of them. Bwakila was pysch-ward crazy.
+Pysch-ward crazy, and armed, and just down the road.
+
+And it was at this moment that my genius friend thought it would by funny to
+provoke Bwakila.
+
+"Bwakila! Kicha!"---Bwakila! Crazy! He yelled.
+
+
+
+
+
+
+<!--
+
+In the desperation for life. Little matters but.
+
+You will be suprised what your mind get fixated at the moment of emergency
+auto-pilot. But it has everthing to with user experience.
+
+
+What is the value of social networks... identity engines. adversiting.. but what
+is avertising attention capturing and reselling
+It is not as though we went looking how to build identify engines. we were
+scratching another itch. but the scratching yeilds somethimg profioundly telling
+
 
 <div class="paragraph">
 
-<div class="card float-left">
+<div class="card tl">
 	<div>
-		left
+		top left
 	</div>
 </div>
 
@@ -50,9 +109,9 @@ so what he does if he turns around and yours Waikoloa Beach ah which means
 
 <div class="paragraph">
 
-<div class="card float-right">
+<div class="card tr">
 	<div>
-		right
+		top right
 	</div>
 </div>
 
@@ -69,11 +128,11 @@ flight it's that moment of amazing mental efficiency where the human
 
 </div>
 
-<div class="paragraph">
+<div class="paragraph drooping">
 
-	<div class="card float-left hang-out">
+	<div class="card tl hang">
 		<div>
-			left
+			top left hang dropping
 		</div>
 	</div>
 
@@ -85,9 +144,9 @@ determines what information in our surrounding in our context is useful to
 bring it to our awareness that we have like an interface and the tension
 firewall a load balancer inside your head which which tells us the smells are
 
-	<div class="card float-right hang-out">
+	<div class="card r hang">
 		<div>
-			right
+			right hang
 		</div>
 	</div>
 
@@ -581,3 +640,69 @@ What is impossible today, will be possible by the time you launch
 Identity is a layer in software
 Constant connectivty
 Moorse Law changes protocal and metaphors
+
+-->
+
+<!--
+# cover
+
+markforhm.com
+background: #b1b1b1 url(/images/mark.jpg) center/cover;
+background-blend-mode: multiply;
+width: 100%;
+height: 100%;
+color: white;
+
+
+https://coyote.imgix.net/199-kay-wang/kay-wang-niki-csanyi-hero.jpg?w=3000
+
+
+# Inspiration: http://www.wired.com/2015/04/silk-road-1/?mbid=social_twitter
+
+http://thegreatdiscontent.com/
+# It was a stunning failure in vision, and more or less the same thing happened at Flickr.
+
+
+... and he as in the middle of a very bad phone call.
+
+Everything about this will make perfect sense... until it doesn't.
+
+"Eat my hat, Mr President." It was the best sentence I could think of at the moment.
+
+It turns out that despite it's name, the ... was not designed for...
+After 3 hours on the plane, I was ready for...
+
+A mother hen will always kill the youngest chick. This is something I was taught...
+
+If you will read this article, you must promise me
+
+In the end, it will be  fear that gets you, a late night, a tired morning, and
+the voice of strangers downstairs.
+
+Beneath a fly infested alcove, on an Island in the bahamas, Mel Reeks was
+checking his watch every 3 minutes or so. We all know that time feels relative,
+and when you pay attention to it, it comes to a crawl.
+
+No company has done xyz this year. That should suprise you if you have been
+following the news...
+
+
+
+# 
+
+The future of UI is not look or feel, but identity
+But when I say identity, it is probably not what you think it means
+Identity is not username password age,
+
+Identity is many things--but when expressed--identity is behavior--patterns of
+interaction. Motives, preferences, desires, fears, hopes all revealed in
+patterns 
+
+The imprint of your identity is your subconsious--your subconsious operates on
+the primal priciniples (fear and desire)--what you want and want you don't want.
+
+
+-->
+
+
+
