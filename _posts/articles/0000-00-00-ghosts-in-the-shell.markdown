@@ -12,43 +12,53 @@ summary: The future of UX is not look or feel but identity
 > think you are about to die. But that's not how it happened with me. What I
 > remember was grass---lots of it.
 
-I very nearly didn't make it to see my seventh birthday because when I was six
-years old, I learnt---the hard way---that a truely crazy person, when angry
-enough, really didn't have the same inhibitions that most people had with the
-idea of killing brat children.
+I nearly didn't live long enough to see my seventh birthday. When I was just six
+years old, I learnt the hard way that death can come as quickly as your next
+punch line.
+
+Come to think about it, I learnt a lot that day, like that a truly crazy person,
+sufficiently enraged, wasn't necessarily going to be encumbered by the
+pedestrian inhibitions that keep most people from killing brats. Or that the
+butt of your joke better not have his machete at hand, and his screws off,
+because that's much how I found myself flirting with an early grave and
+contemplating grass.
 
 More than 20 years later, as I sought a conceptual framework to describe the
 potential paradigm-shift in human computer interaction, I would be struck at how
 appropriate it was, that in the near death experience, one would think of grass.
 
-It all has to do with context you see.
+It all comes to down to context you'll see.
 
 <div class="card">
-	<p>
-		When I recall that early brush-in with death, what I remember is how the
-		grass felt like whipping my shins; my 6-year old legs racing to carry my
-		short and dwindling lifespan through tall savannah grass. I remember the
-		terrorizing swoosh and crunching sound the grass made---getting louder
-		in the narrowing distance between me and the man gaining on us. I
-		remember the vivid flash of the machete landing in the grass just feets
-		from my heels. But mainly, I remember grass.
-	</p>
+		<p>
+			When I recall that early brush-in with death, what I remember is how
+			the grass felt like whipping my shins; my 6-year old legs racing to
+			carry my short and dwindling lifespan through tall savannah grass. I
+			remember the terrorizing swoosh and crunching sound the grass
+			made&mdash;getting louder in the narrowing distance between me and
+			the man gaining on us. I remember the vivid flash of the machete
+			landing in the grass just feets from my heels. But mainly, I
+			remember grass.
+		</p>
 </div>
 
 #True Story
 
-My near death experience happened on the road home from preschool. We saw him
-when he was about 50 meters behind us on our foot path, minding his own
-business. The fact that he carried a machete was hardly alarming.  Machetes were
-everywhere in Tanzania. Everyone has a "panga." What was alarming, however, was
-the fact that the man walking up the road was Bwakila.
+I nearly died on the road home from preschool. We saw him when he was about 50
+meters behind us on our foot path, minding his own business. The fact that he
+carried a machete was hardly alarming.  Machetes were everywhere in Tanzania.
+Everyone has a "panga." No, what was alarming wasn't the machete, but the man to
+whom it was attach. The distinctive figure walking up the road was that of
+Bwakila.
 
-Bwakila was crazy. A bonified local mad man. His screws weren't lose, they were
-all off---each and every single one of them. Bwakila was pysch-ward crazy.
-Pysch-ward crazy, and armed, and just down the road.
+Bwakila was crazy. His screws weren't loose---they were all off---each and every
+single one of them. Bwakila was pysch-ward crazy, and armed, and just down the
+road.
 
 And it was at this moment that my genius friend thought it would by funny to
-provoke Bwakila.
+provoke Bwakila into blind murderous rage. (I guess, in my friends defence, it
+didn't take much to push Bwakila over the age). Without a good grasp on
+mortality.
 
 "Bwakila! Kicha!"---Bwakila! Crazy! He yelled.
 
