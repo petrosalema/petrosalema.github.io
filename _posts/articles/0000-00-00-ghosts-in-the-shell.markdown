@@ -8,25 +8,21 @@ cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy
 summary: The future of UX is not look or feel but identity
 ---
 
->They say that you see your whole life flashing before your eyes the moment you
->think you're about to die. But that’s not how it happened with me. What I
+>They say that you see your whole life flashing before your eyes at the moment
+>you think you're about to die. But that’s not how it happened with me. What I
 >remember was grass---lots of it.
 
+I nearly didn’t live long enough to see my seventh birthday. I was just six when
+I learnt that a brush with death can come as suddenly as a bad punch line.
 
-I nearly didn’t live long enough to see my seventh birthday. I was just six
-years old when I learnt that a brush with death can come as suddenly as a bad
-punch line.
+That day also taught me that children really aren't supposed to talk to
+stranger---atleast not those weilding machete and violent disposition. That day
+found me running for dear life and desperately contemplating grass.
 
-That day we learnt that children weren't to talk to strangers---especially
-strangers holding machetes, and known to have psychotic violent spells. Anyway,
-this is how I found myself flirting with an early grave and desperately
-contemplating grass.
-
-More than 20 years later, as I sought a conceptual framework to describe the
-potential paradigm-shift in human computer interaction, it struck me just  how
-appropriate it was, that in a near death experience, one would find himself
-primarily with grass on his mind.
-
+It was more than 20 years later---thinking over a conceptual framework around
+human computer interaction of all things---that it struck me just how
+appropriate it is that a person in their near death experience would have grass
+on their mind.
 
 It all comes to down to context you’ll see.
 
@@ -34,46 +30,40 @@ It all comes to down to context you’ll see.
 	<!-- video class="bg" autoplay="true" loop="true" src="http://petrosalema.com/interfaces-that-think/grass.mp4"></video -->
 	<div>
 		<p>
-			What I remember was the grass whipping my shins, as my 6-year old
-			legs raced to carry my short and dwindling lifespan through savannah
-			grass.
+			To this day, that memory is a cocktail of adrenaline and fear and
+			grass. But mainly grass: grass whipping my shins. Grass engulfing my
+			short legs as they race my dwindling lifespan through savannah.
+			Grass making swooshing sounds behind us in cadence with the strides
+			of the maniac on our heels.
 		</p>
 
-		<p>
-			I remember the terrible swooshing sounds the grass made in the
-			narrowing distance between me and the man behind me.
-		</p>
+		<p>Grass flying as a machete crashes just feets from my feet.</p>
 		
-		<p>
-			I remember the machete landing with a flash in the grass just feets
-			from my heels.
-		</p>
-		
-		<p>But mainly, I remember grass.</p>
+		<p>Adrenaline and fear and machete. But mainly just grass.</p>
 	</div>
 </div>
 
 ##A True Story
 
-I nearly died on a road home from preschool. We saw him when he was about 50
-meters behind us, minding his own business, on our footpath.
+I nearly died on the road home from preschool. We saw him when he was about 50
+meters behind us. He was on our footpath but otherwise minding his own business.
 
-The fact that he carried a machete was hardly alarming.  Machetes were
-everywhere in Tanzania; everyone owned a "panga." No, what was alarming wasn't
-the machete, but the man holding the machete. Behind us was the very distinctive
-figure of a man called Bwakila---the local bonafide mad man.
+The fact that he carried a machete was hardly alarming. Machetes were everywhere
+in Tanzania; everyone owned a "panga." No, what was alarming wasn't the machete,
+but the *man* holding the machete. Behind us was the very distinctive figure of
+the man we all knew as "Bwakila"---a local bonafide mad man.
 
-Bwakila screws weren't just loose---they were all off---each and every one of
-them. Bwakila was crazy, and armed, and approaching.
+Bwakila's screws weren't just loose---they were all off. And there he was: out
+of his mind and on our path. And armed.
 
-And it was at this moment that my genius friend thought it would by funny to
-provoke Bwakila into blind murderous rage. (I guess, in my friends defence, it
-didn't take much to push Bwakila over the age). Without a good grasp on
-mortality.
+With the naivety that can only attends children yet unaquainted fully with the
+reality of their own mortality, my friend thought of, in the spur of that
+moment, what he figured would make a great after-school activity: have audience
+with an armed mad men.
 
 "Bwakila! Kicha!"---Bwakila! Crazy! He yelled.
 
-
+[ machete don't kill people, mad men do ]
 
 
 
