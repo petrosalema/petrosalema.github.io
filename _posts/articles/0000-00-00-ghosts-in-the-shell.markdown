@@ -5,7 +5,7 @@ date: 0000-01-01 00:00:00 +0000
 category: articles
 permalink: articles/ghosts-in-the-shell
 cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&fit=crop&fm=jpg&h=1350&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300
-summary: The future of UX is not look or feel but identity
+summary: Why tunnel vision is the ultimate user experience strategy
 ---
 
 >They say that you see your whole life flashing before your eyes at the moment
@@ -13,37 +13,19 @@ summary: The future of UX is not look or feel but identity
 >remember was grass---lots of it.
 
 I nearly didn’t live long enough to see my seventh birthday. I was just six when
-I learnt that a brush with death can come as suddenly as a bad punch line.
+I learnt that a brush with death can come as suddenly as a bad punch line. I was
+a six-year-old running for my life... and desperately contemplating grass.
 
-That day also taught me that children really aren't supposed to talk to
-stranger---atleast not those weilding machete and violent disposition. That day
-found me running for dear life and desperately contemplating grass.
+A couple of decades later---thinking over a conceptual framework around
+human-computer interaction of all things---it would strike me just how
+appropriate it was, that in that near death experience, it was grass that was on
+my mind.
 
-It was more than 20 years later---thinking over a conceptual framework around
-human computer interaction of all things---that it struck me just how
-appropriate it is that a person in their near death experience would have grass
-on their mind.
+It all comes down to context you’ll see.
 
-It all comes to down to context you’ll see.
+<img src="../static/chasing.gif" />
 
-<div class="card backdropped">
-	<!-- video class="bg" autoplay="true" loop="true" src="http://petrosalema.com/interfaces-that-think/grass.mp4"></video -->
-	<div>
-		<p>
-			To this day, that memory is a cocktail of adrenaline and fear and
-			grass. But mainly grass: grass whipping my shins. Grass engulfing my
-			short legs as they race my dwindling lifespan through savannah.
-			Grass making swooshing sounds behind us in cadence with the strides
-			of the maniac on our heels.
-		</p>
-
-		<p>Grass flying as a machete crashes just feets from my feet.</p>
-		
-		<p>Adrenaline and fear and machete. But mainly just grass.</p>
-	</div>
-</div>
-
-##A True Story
+## A True Story
 
 I nearly died on the road home from preschool. We saw him when he was about 50
 meters behind us. He was on our footpath but otherwise minding his own business.
@@ -51,20 +33,52 @@ meters behind us. He was on our footpath but otherwise minding his own business.
 The fact that he carried a machete was hardly alarming. Machetes were everywhere
 in Tanzania; everyone owned a "panga." No, what was alarming wasn't the machete,
 but the *man* holding the machete. Behind us was the very distinctive figure of
-the man we all knew as "Bwakila"---a local bonafide mad man.
+the man we all knew as "Bwakila."
 
-Bwakila's screws weren't just loose---they were all off. And there he was: out
-of his mind and on our path. And armed.
+Bwakila was a local bonafide mad man. His screws weren't just loose---they were
+all off. And there he was: out of his mind and in our path. And carrying his
+*panga*.
 
-With the naivety that can only attends children yet unaquainted fully with the
-reality of their own mortality, my friend thought of, in the spur of that
-moment, what he figured would make a great after-school activity: have audience
-with an armed mad men.
+I cannot say what at that moment gave my friend the notion that what he was
+going to do next could possibly end any other way than the disaster that
+followed. But we were all going to live to regret it.
 
-"Bwakila! Kicha!"---Bwakila! Crazy! He yelled.
+"Bwakila!" he yelled.
 
-[ machete don't kill people, mad men do ]
+Bwakila looked up the way one does when they hear someone call their name out in
+a crowd. He had stopped in his tracks and was now looking at us as though he was
+trying to figure out what on earth was going on.
 
+Then he charge!
+
+My memory from then on is a cocktail of adrenaline and fear and grass---but
+mainly grass.
+
+<div class="card backdropped">
+	<!-- video class="bg" autoplay="true" loop="true" src="http://petrosalema.com/interfaces-that-think/grass.mp4"></video -->
+	<!-- https://www.youtube.com/watch?v=ndmcRDWSj20 -->
+	<img class="bg" src="../static/running.gif" />
+	<p>
+		Grass, whipping my shins as we race through savannah. Grass, making
+		swooshing sounds behind us&mdash;a maniac on our heels. Grass, flying in
+		gits as a machete crashes just feets from my ankles.
+	</p>
+</div>
+
+Chances are that you have never been chased by a machete-wielding mad man. But I
+would guess that you know the experience we call *fight or flight*.
+
+Fight or flight is a moment of amazing mental efficiency. The human operating
+system processes an onslaught of signals and streams and messages, and distills
+innumerable variables down to a surprisingly clear binary decision: fight or
+fly.
+
+put them up by our flight and in that moment we have this
+mechanism in others
+before it even gets to our our consciousness which determines what information
+in our surrounding in our context is useful to bring it to our awareness that we
+have like an interface and the tension firewall a load balancer inside your head
+which which tells us the smells are
 
 
 
