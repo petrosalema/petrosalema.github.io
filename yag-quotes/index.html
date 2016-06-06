@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html id="quotemaker">
+	<head>
+		<title>Quote Maker</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+
+		<style>
+			@keyframes colors {
+				  0% { background-color: #ED638C; color: #11637C; }
+				 10% { background-color: #EF6949; color: #7CBE99; }
+				 20% { background-color: #5C2958; color: #19A852; }
+				 30% { background-color: #FDCA52; color: #1699B4; }
+				 40% { background-color: #DDDC53; color: #684053; }
+				 50% { background-color: #2B4094; color: #E32334; }
+				 60% { background-color: #42D4CE; color: #E93580; }
+				 70% { background-color: #6ECCF0; color: #F0535C; }
+				 80% { background-color: #D4D3D3; color: #843F63; }
+				 90% { background-color: #1A4064; color: #B1CC44; }
+				100% { background-color: #EF5758; color: #0F5A9D; }
+			}
+			* {
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+						box-sizing: border-box;
+				-moz-osx-font-smoothing: grayscale;
+				 -webkit-font-smoothing: antialiased;
+					-moz-font-smoothing: antialiased;
+						 font-smoothing: antialiased;
+			}
+			html, body {
+				margin: 0;
+				padding: 0;
+				width: 100vw;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				align-item: center;
+				justify-content: center;
+			}
+			.card {
+				position: relative;
+				width: 800px;
+				height: 500px;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				line-height: 1.2em;
+				text-align: left;
+				text-transform: uppercase;
+				font-size: 30px;
+				font-weight: 300;
+
+				font-family: 'Lato'; font-weight: 900;
+				font-family: 'Hammersmith One';
+				font-family: 'Montserrat';
+				font-family: 'Josefin Sans';
+				font-family: 'PT Sans Narrow'; letter-spacing: 0.1em;
+
+				background-image: radial-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5));
+			}
+			.card>.txt {
+				position: absolute;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: 0 3em;
+				outline: 0;
+				transition: background-color .3s cubic-bezier(.1,.82,.25,1),
+				            color            .3s cubic-bezier(.1,.82,.25,1),
+				            font-size        .3s cubic-bezier(.1,.82,.25,1);
+				-webkit-user-modify: read-write;
+				   -moz-user-modify: read-write;
+				        user-modify: read-write;
+				mix-blend-mode: multiply;
+			}
+			.card>.txt {
+				quotes: "“" "”" "‘" "’";
+				font-weight: bold;
+				font-size: 40px;
+				text-align: center;
+				line-height: 1.1em;
+				letter-spacing: 0.1em;
+			}
+			.card>.txt::before {
+				display: block;
+				content: '';
+				/*
+				font-weight: 700;
+				font-size: 150px;
+				font-family: 'Time New Roman';
+				*/
+				opacity: 0.5;
+				width: 60px;
+				height: 50px;
+				margin-bottom: 20px;
+				background-image: url(./bible.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				-webkit-filter: invert(100%);
+			}
+			.card>.bg {
+				z-index: -1;
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				-webkit-filter: grayscale(100%) contrast(100%);
+				   -moz-filter: grayscale(100%) contrast(100%);
+				        filter: grayscale(100%) contrast(100%);
+				opacity: 0.3;
+			}
+			ul {
+				position: fixed;
+				top: 20px;
+				right: 20px;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				width: 50px;
+			}
+			ul li {
+				display: block;
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-size: 30px;
+				font-weight: 900;
+				font-family: 'PT Sans Narrow'; letter-spacing: 0.1em;
+				cursor: pointer;
+			}
+			ul li:hover {
+				z-index: 9;
+				outline: 5px solid #fff;
+				box-shadow: 0 0 20px rgba(0,0,0,0.5);
+				transition: transform.3s cubic-bezier(.1,.82,.25,1);
+				transform: scale(1.1);
+			}
+			ul.images { left: 20px; }
+			ul.images li {
+				width: 100px;
+				background-size: cover;
+			}
+
+			ul.sizes {
+				position: relative;
+				width: auto;
+				text-align: center;
+			}
+			ul.sizes li {
+				display: inline-block;
+				color: #222;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="txt">
+				No one has ever seen God; the only God, who is at the Father's
+				side, he has made him known.
+			</div>
+			<div class="bg"></div>
+		</div>
+		<ul class="palettes"></ul>
+		<ul class="images"></ul>
+		<ul class="sizes"></ul>
+		<script src="./jquery.js"></script>
+		<script>
+			(function() {
+				const sizes = [30, 32, 34, 36, 38, 40] ;
+				const images = [
+					'bible-study-1.jpg',
+					'bible-study-2.jpg',
+					'bible-study-3.jpg',
+					'bible-study-4.jpg',
+					'bible-study-5.jpg'
+				];
+				const palettes = [
+					'background-color: #421036; outline-color: #EF3E38; color: #EF3E38;',
+					'background-color: #5C2958; outline-color: #19A852; color: #19A852;',
+					'background-color: #1A4064; outline-color: #B1CC44; color: #B1CC44;',
+					'background-color: #843F63; outline-color: #D4D3D3; color: #D4D3D3;',
+					'background-color: #2B4094; outline-color: #FDCA52; color: #FDCA52;',
+					'background-color: #333333; outline-color: #f61f27; color: #f61f27;',
+					'background-color: #223242; outline-color: #4CFFFE; color: #4CFFFE;',
+					'background-color: #1A1A5B; outline-color: #FF6B2F; color: #C3F0DE;',
+					'background-color: #3A534C; outline-color: #2DA76D; color: #2DA76D;',
+					'background-color: #333333; outline-color: #EFF026; color: #EFF026;',
+				];
+				const $txt = $('.card>.txt');
+				const $bg = $('.card>.bg');
+				const $sizes = $('.sizes');
+
+				$('ul.palettes').html(palettes.map(function (css, i) {
+					return '<li style="' + css + '" data-css="' + css + '">' + i + '</li>';
+				}).join('')).on('click', function (ev) {
+					$txt.attr('style', $(ev.target).data('css'));
+				});
+
+				$('ul.images').html(images.map(function (img, i) {
+					return '<li style="background-image: url(' + img + ')" data-img="' + img + '"></li>';
+				}).join('')).on('click', function (ev) {
+					$bg.css('background-image', 'url(' + $(ev.target).data('img') + ')');
+				});
+
+				$('ul.sizes').html(sizes.map(function (size, i) {
+					return '<li style="font-size:' + size + 'px" data-size="' + size + '">' + size + '</li>';
+				}).join('')).on('click', function (ev) {
+					$txt.css('font-size', $(ev.target).data('size') + 'px');
+				});
+
+				$txt.attr('style', palettes[0]);
+				$bg.css('background-image', 'url(' + images[0] + ')');
+			}());
+		</script>
+
+	</body>
+</html>
