@@ -39,11 +39,25 @@ set ruler
 " set tabstop=4 shiftwidth=4
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 
-" autocmd vimenter * NERDTree
 " Because we assume that we are development
-autocmd FileType typescript,javascript,less NERDTree
+" http://stackoverflow.com/questions/2066590/automatically-quit-vim-if-nerdtree-is-last-and-only-buffer?rq=1
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
+autocmd FileType typescript,javascript,less NERDTree
+autocmd VimEnter * wincmd p
+autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
+
+" Close all open buffers on entering a window if the only
+" buffer that's left is the NERDTree buffer
+function! s:CloseIfOnlyNerdTreeLeft()
+  if exists("t:NERDTreeBufName")
+    if bufwinnr(t:NERDTreeBufName) != -1
+      if winnr("$") == 1
+        q
+      endif
+    endif
+  endif
+endfunction
 
 colorscheme seoul256
 
@@ -78,4 +92,3 @@ noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 
 " http://stackoverflow.com/questions/34102184/use-tsconfig-json-for-tsc-with-syntastic-in-vim
 " let g:syntastic_typescript_tsc_fname = ''
-
