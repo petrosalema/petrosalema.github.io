@@ -1,0 +1,32 @@
+---
+layout: base
+---
+<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <a href="/" class="logo">
+    petro<br/>
+    salema<b>.</b>
+  </a>
+
+  <header xstyle="background-image: url({{ page.cover }}">
+    <div>
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+      <div class="lead">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+        {% if page.author %}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author }}</span>
+          </span>
+        {% endif %}
+        {% if page.summary %}
+          • <span>{{ page.summary }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <section itemprop="articleBody">{{ content }}</section>
+
+</article>

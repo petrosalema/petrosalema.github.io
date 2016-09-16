@@ -13,171 +13,182 @@ $small-font-size  :  $base-font-size * 0.875;
 $base-line-height : 1.5;
 
 * { 
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	color: $text-color;
-	font-family: $base-font-family;
-	font-size: $base-font-size;
-	-moz-osx-font-smoothing: grayscale;
-	 -webkit-font-smoothing: antialiased;
-	    -moz-font-smoothing: antialiased;
-	         font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+           font-smoothing: antialiased;
 }
 
 ::selection {
-	background: $text-color;
-	color: #fff;
+  background: $text-color;
+  color: #fff;
 }
 
 h3 {
-	margin: .5em 0;
-	font-size: 25px;
-	font-weight: 300;
-	text-align: left;
+  margin: .5em 0;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
 }
 
 a {
-	color: $text-color;
-	text-decoration: none;
-	transition: color .2s $easing, transform .6s $easing;
-	outline: 0;
-	&:hover {
-		color: $brand-color;
-		text-decoration: none;
-	}
+  color: $text-color;
+  text-decoration: none;
+  transition: color .2s $easing, transform .6s $easing;
+  outline: 0;
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
 }
 
 b {
-	font-family: 'Open Sans';
-	line-height: 0;
-	font-weight: 700;
-	font-size: 1.3em;
-	padding-left: .1em;
+  font-family: 'Open Sans';
+  line-height: 0;
+  font-weight: 700;
+  font-size: 1.3em;
+  padding-left: .1em;
 }
 
 .centered {
-	display: table;
-	&>:first-child {
-		display: table-cell;
-		vertical-align: middle;
-	}
+  display: table;
+  &>:first-child {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 #about {
-	position: relative;
-	min-height: 500px;
-	padding: 200px 100px;
-	background: $brand-color;
-	font-size: 50px;
-	font-weight: 300;
-	text-align: center;
-	color: #fff;
-	overflow: hidden;
-	&>div { position: relative }
+  position: relative;
+  min-height: 500px;
+  padding: 200px 100px;
+  background: $brand-color;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  &>div { position: relative }
 
-	&::before {
-		opacity: 0.9;
-		content: '';
-		display: block;
-		position: absolute;
-		top: 50px;
-		right: 50px;
-		width: 100%;
-		height: 100%;
-		background-size: auto 150%;
-		background-repeat: no-repeat;
-		background-position: right top;
-		background-image: url(../static/portrait4.png);
-		-webkit-filter: contrast(0.7);
-		   -moz-filter: contrast(0.7);
-				filter: contrast(0.7);
-	}
+  &::before {
+    opacity: 0.9;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100%;
+    height: 100%;
+    background-size: auto 150%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url(../static/portrait4.png);
+    -webkit-filter: contrast(0.7);
+       -moz-filter: contrast(0.7);
+        filter: contrast(0.7);
+  }
 }
 
 .posts {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	li {
-		float: left;
-		width: 50%;
-		//max-width: 650px;
-		a {
-			overflow: hidden;
-			position: relative;
-			display: block;
-			width: 100%;
-			height: 400px;
-			padding: 3em 2em;
-			color: #fff;
-			.post-details {
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				margin: 0;
-				padding: 40px;
-				width: 100%;
-				color: rgba(255,255,255,0.7);
-				transition: transform .5s $slow-easing;
-				h2 {
-					margin: 0 0 .2em;
-					line-height: 1em;
-					font-weight: 700;
-					font-size: 60px;
-					font-family: 'Playfair Display', serif;
-					color: #fff;
-				}
-				.post-summary  { font-size: 18px }
-			}
-			&>* { position: relative }
-			&::before {
-				position: absolute;
-				display: block;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				content: '';
-				background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
-			}
-			.bg {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				z-index: -1;
-				background-size: cover;
-				background-position: center;
-				background-color: $text-color;
-				transition: transform .5s $slow-easing;
-				transform: scale(1.0);
-				-xwebkit-filter: brightness(100%) contrast(100%) grayscale(100%);
-				background-image: url(http://static1.squarespace.com/static/569fe8405a566853bcb918f6/569fe88789a60ab966e26130/56be68b63c44d89a5811be09/1458054955158/?format=1500w);
-			}
-			&:hover{
-				.bg { transform: scale(1.05) }
-			}
-		}
-	}
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    float: left;
+    width: 50%;
+    //max-width: 650px;
+    a {
+      overflow: hidden;
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 400px;
+      padding: 3em 2em;
+      color: #fff;
+      .post-details {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 40px;
+        width: 100%;
+        color: rgba(255,255,255,0.7);
+        transition: transform .5s $slow-easing;
+        h2 {
+          margin: 0 0 .2em;
+          line-height: 1em;
+          font-weight: 700;
+          font-size: 60px;
+          font-family: 'Playfair Display', serif;
+          color: #fff;
+        }
+        .post-summary  { font-size: 18px }
+      }
+      &>* { position: relative }
+      &::before {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+      }
+      .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+        background-color: $text-color;
+        transition: transform .5s $slow-easing;
+        transform: scale(1.0);
+        -xwebkit-filter: brightness(100%) contrast(100%) grayscale(100%);
+        background-image: url(http://static1.squarespace.com/static/569fe8405a566853bcb918f6/569fe88789a60ab966e26130/56be68b63c44d89a5811be09/1458054955158/?format=1500w);
+      }
+      &:hover{
+        .bg { transform: scale(1.05) }
+      }
+    }
+  }
+  li.title-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: $brand-color;
+    background-color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    b { padding: 0; }
+  }
 }
 
 a.logo {
-	z-index: 999;
-	position: absolute;
-	margin: 40px 60px;
-	color: rgba(255,255,255,0.7);
-	font-weight: 700;
-	font-size: 30px;
-	line-height: .9em;
-	b { color: #fff }
-	&:hover { color: #fff }
+  z-index: 999;
+  position: absolute;
+  margin: 40px 60px;
+  color: rgba(255,255,255,0.7);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: .9em;
+  b { color: #fff }
+  &:hover { color: #fff }
 }

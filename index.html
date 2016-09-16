@@ -3,46 +3,49 @@ layout: base
 ---
 
 <section id="masthead">
-	<header>
-		<div>
-			<h1>petro<br/>salema<b>.</b></h1>
-			<h3>Designer &middot; Programmer &middot; Speaker</h3>
-		</div>
-	</header>
-	<article class="centered">
-		<div>
-			<div>
-				<a href="#">
-					<h2>Bend the Fish While it is Still Wet</h2>
-				</a>
-				<h3>
-					How East Aftrica Leap-frogged the world in mobile
-					fin-tech &middot; <a href="#">10 MIN READ</a>
-				</h3>
-			</div>
-		</div>
-	</article>
+  <header>
+    <div>
+      <h1>petro<br/>salema<b>.</b></h1>
+      <h3>Helping startups get from vision to version 1.0</h3>
+    </div>
+  </header>
+  <article class="centered">
+    <div>
+      <div>
+        <a href="#">
+          <h2>Bend the Fish While it is Still Wet</h2>
+        </a>
+        <h3>
+          How East Aftrica Leap-frogged the world in mobile
+          fin-tech &middot; <a href="#">10 MIN READ</a>
+        </h3>
+      </div>
+    </div>
+  </article>
 </section>
 
 <section id="about" class="centered">
-	<div>
-		Hi, there! My name is Petro Salema. I work with people who are working
-		to make a difference&mdash;using, software and design to bring the
-		promises of the future into the possibilities of today<b>.</b>
-	</div>
+  <div>
+    My name is Petro Salema. I partner with companies that are working to make a
+    difference&mdash;using, software and design to bring the promises of the
+    tomorrow into the possibilities of today<b>.</b>
+  </div>
 </section>
 
 <ul class="posts">
+  <li class="title-card">
+    talks<b>.</b>
+  </li>
 {% for post in site.posts %}
-	<li>
-		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-			<div class="bg" xstyle="background-image: url({{ post.cover }})"></div>
-			<div class="post-details">
-				<h2>{{ post.title }}</h2>
-				<div class="post-summary">{{ post.summary }}</div>
-			</div>
-		</a>
-	</li>
+  <li>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="bg" xstyle="background-image: url({{ post.cover }})"></div>
+      <div class="post-details">
+        <h2>{{ post.title }}</h2>
+        <div class="post-summary">{{ post.summary }}</div>
+      </div>
+    </a>
+  </li>
 {% endfor %}
 </ul>
 

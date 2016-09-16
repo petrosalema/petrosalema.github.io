@@ -1,9 +1,9 @@
 ---
-layout: article
+layout: talk
 title: "Ghosts In The Shell"
 date: 0000-01-01 00:00:00 +0000
-category: articles
-permalink: articles/ghosts-in-the-shell
+category: talks
+permalink: talks/ghosts-in-the-shell
 cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&fit=crop&fm=jpg&h=1350&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300
 summary: Why tunnel vision is the ultimate user experience strategy
 ---
@@ -12,16 +12,14 @@ summary: Why tunnel vision is the ultimate user experience strategy
 >you think you're about to die. But that’s not how it happened with me. What I
 >remember was grass---lots of it.
 
-I nearly didn’t live long enough to see my seventh birthday. I was just six when
+I almost didn’t live long enough to see my seventh birthday. I was just six when
 I learnt that a brush with death can come as suddenly as a bad punch line. I was
 a six-year-old running for my life... and desperately contemplating grass.
 
 A couple of decades later---thinking over a conceptual framework around
-human-computer interaction of all things---it would strike me just how
-appropriate it was, that in that near death experience, it was grass that was on
-my mind.
-
-It all comes down to context you’ll see.
+human-computer interaction, it struck me just how appropriate it was, that in
+that near death experience, it would have been grass that was on my mind. It all
+comes down to context.
 
 <img src="../static/chasing.gif" />
 
@@ -31,25 +29,24 @@ I nearly died on the road home from preschool. We saw him when he was about 50
 meters behind us. He was on our footpath but otherwise minding his own business.
 
 The fact that he carried a machete was hardly alarming. Machetes were everywhere
-in Tanzania; everyone owned a "panga." No, what was alarming wasn't the machete,
-but the *man* holding the machete. Behind us was the very distinctive figure of
-the man we all knew as "Bwakila."
+in Tanzania; everyone owned a "panga." What was alarming was the *man* holding
+the machete, because behind us was the very distinctive figure of "Bwakila."
 
 Bwakila was a local bonafide mad man. His screws weren't just loose---they were
-all off. And there he was: out of his mind and in our path. And carrying his
-*panga*.
+all off. And there he was: out of his mind, and in our path, and carrying a
+machete.
 
-I cannot say what at that moment gave my friend the notion that what he was
-going to do next could possibly end any other way than the disaster that
+I cannot say what, at that moment, gave my friend the notion that what he was
+about to do next could possibly end any other way than in the disaster that
 followed. But we were all going to live to regret it.
 
 "Bwakila!" he yelled.
 
 Bwakila looked up the way one does when they hear someone call their name out in
 a crowd. He had stopped in his tracks and was now looking at us as though he was
-trying to figure out what on earth was going on.
+trying to figure out.......
 
-Then he charge!
+Then he charge at us!
 
 My memory from then on is a cocktail of adrenaline and fear and grass---but
 mainly grass.
