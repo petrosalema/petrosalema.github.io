@@ -1,23 +1,28 @@
 ---
 layout: simple
-title: About
-permalink: /about/
+title: Work
+permalink: /work/
 ---
+
 <a href="/" class="logo">
   petro<br/>
   salema<b>.</b>
 </a>
 
-<h1>about<b>.</b></h1>
+<h1>work<b>.</b></h1>
 
-My name is Petro Salema<b>.</b><br/>
-I am a <strong>React (Native)</strong> &amp; <strong>Angular</strong> expert who
-helps companies get from <strong>vision</strong> to <strong>version
-1.0</strong><b>.</b>
+<h3 style="text-align: center"><a href="http://phonicscore.com/">PhonicScore Gmbh<b>:</b></a></h3>
+<div>Designing new webapp with Angular</div>
 
-The companies I partner with are all working to make a difference---using,
-software and design to bring the promises of tomorrow into the possibilities of
-today<b>.</b>
+&bull;
+
+<h3 style="text-align: center"><a href="http://everjoin.us/">Everjoin Ltd<b>:</b></a></h3>
+<div>Designing Mobile using React Native</div>
+
+&bull;
+
+<h3 style="text-align: center"><a href="http://www.gentics.com/genticscms/index.de.html">Gentics/APA<b>:</b></a></h3>
+<div>Leading the developing of Aloha Editor</div>
 
 <!--
 
