@@ -1,0 +1,49 @@
+@import "colors";
+
+.nav-icon {
+	cursor: pointer;
+	position: fixed;
+	z-index: 99999;
+	display: inline-block;
+	top: 0;
+	right: 0;
+	padding: 30px 30px 40px;
+}
+
+.nav-icon b {
+	display: block;
+    width: 25px;
+    height: 2px;
+	margin-top: 8px;
+    background: $text-color;
+    transform: translateY(-50%);
+	transition: background .2s ease;
+
+	&::after, &::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		background-color: inherit;
+		transform: translateZ(0);
+		backface-visibility: hidden;
+		transition: all .2s ease;
+	}
+}
+.nav-icon b {
+	&::before { transform: translateY(-6px) }
+	&::after { transform: translateY(6px) }
+}
+.nav-icon:hover b {
+	&::before { transform: translateY(-8px) }
+	&::after { transform: translateY(8px) }
+}
+.nav-icon.opened b {
+	background: transparent;
+	&::before { transform: rotate(45deg) }
+	&::after { transform: rotate(-45deg) }
+	&::before, &::after { background: $text-color }
+}
+

@@ -1,0 +1,199 @@
+$header-font: 'Playfair Display', serif;
+$body-font: 'Lora', 'Times New Roman', serif;
+
+article.article {
+  h1, h2, h3 {
+    font-family: $header-font;
+    line-height: 1em;
+  }
+  .video {
+    margin: 0px auto 25px;
+    iframe, video {
+      width: 100%;
+      height: 390px;
+    }
+  }
+}
+
+article.article header {
+  // mix-blend-mode: multiply;
+  // -webkit-filter: grayscale(100%);
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  color: #fff;
+  background-size: cover;
+  background-position: center bottom;
+  background-color: $brand-color;
+  background-attachment: fixed;
+  &>div {
+    position: absolute;
+    bottom: 0;
+    margin: 60px;
+  }
+  &::before {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8));
+  }
+  h1 {
+    max-width: 650px;
+    margin: 0 0 20px;
+    font-size: 70px;
+  }
+  .lead {
+    font-weight: 300;
+    font-size: 30px;
+    opacity: 0.7;
+  }
+}
+
+article.article section {
+  padding: 50px 0;
+  font-size: 21px;
+  font-family: $body-font;
+  line-height: 1.6em;
+  text-align: left;
+
+  img { width: 100% }
+  &>*, p {
+    max-width: 800px;
+    margin: 0 auto 25px;
+    padding: 0 60px;
+    .card { margin-top: 40px }
+    &:last-child { margin-bottom: 0 }
+  }
+  blockquote {
+    margin: 0 auto;
+    padding: 20px 60px 60px;
+    font-family: $header-font;
+    font-weight: 300;
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 1.4em;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #999;
+    &::after {
+      width: 10%;
+      height: 5px;
+      background: #eee;
+      content: '';
+      display: block;
+      margin: 60px auto 0;
+    }
+  }
+  .two-col {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2em;
+    -moz-column-count: 2;
+    -moz-column-gap: 2em;
+    column-count: 2;
+    column-gap: 2em;
+  }
+  .card {
+    position: relative;
+    max-width: initial;
+    min-width: 350px;
+    min-height: 300px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background: yellow;
+    &.tl, &.tr, &.bl, &.br, &.r, &.l {
+      width: 30%;
+      margin: 1em 2em;
+    }
+    &.tl, &.tr { margin-top: .3em }
+    &.bl, &.br { margin-bottom: 0 }
+    &.tl, &.bl, &.l {
+      float: left;
+      margin-left: -100px;
+    }
+    &.tr, &.br, &.r {
+      float: right;
+      margin-right: 0;
+      &.hang>div { width: calc(100% + 100px) }
+    }
+    &>div { width: 100% }
+  }
+  .backdropped {
+    min-height: 100vh;
+    margin: 60px auto;
+    padding: 60px 0;
+    background: white;
+    overflow: hidden;
+    &>* {
+      z-index: 2;
+      position: relative;
+      color: #fff;
+    }
+    .bg {
+      z-index: 0;
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      top: 0;
+      left: 0;
+      -webkit-filter: contrast(30%);
+    }
+    &::before {
+      background-image: url(http://www.petrosalema.com/interfaces-that-think/noise.png);
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      opacity: 0.07;
+      mix-blend-mode: multiply;
+    }
+    &::after {
+      z-index: 1;
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.6) 70%,
+        rgba(0,0,0,0.7)
+      );
+    }
+    &>div {
+      max-width: 800px;
+      margin: 0 auto 25px;
+      padding: 0 60px;
+    }
+  }
+  .drooping {
+    padding-top: 100px;
+    .card {
+      &.tl, &.tr {
+        div { background: red }
+        margin-top: -100px;
+      }
+    }
+  }
+
+  &:first-of-type>p:first-of-type:first-letter {
+    color: #231f20;
+    display: inline-block;
+    float: left;
+    font-family: "Playfair Display", serif;
+    font-size: 5em;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: .5em;
+    margin: 0;
+    padding: 0.15em 0.1em 0.15em 0;
+  }
+}
