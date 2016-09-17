@@ -1,12 +1,16 @@
 ---
 layout: talk
-title: "Ghosts In The Shell"
-date: 0000-01-01 00:00:00 +0000
+title: "Ghosts In The Shell (Designing Interfaces That Think)"
+date: 2015-05-13 00:00:00 +0000
 category: talks
 permalink: talks/ghosts-in-the-shell
-cover: https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&fit=crop&fm=jpg&h=1350&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300
-summary: Why tunnel vision is the ultimate user experience strategy
+cover: https://raw.githubusercontent.com/petrosalema/interfaces-that-think/master/interfaces-that-think-btconf.jpg
+summary: How tunnel vision is the ultimate user experience strategy
 ---
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QTp_sDjqkf4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 >They say that you see your whole life flashing before your eyes at the moment
 >you think you're about to die. But that’s not how it happened with me. What I
@@ -70,16 +74,17 @@ system processes an onslaught of signals and streams and messages, and distills
 innumerable variables down to a surprisingly clear binary decision: fight or
 fly.
 
+Watch the video to see how fight or flight has everything to do with the future
+of user interface design: invisible interfaces; interfaces that think<b>.</b>
+
+<!--
+
 put them up by our flight and in that moment we have this
 mechanism in others
 before it even gets to our our consciousness which determines what information
 in our surrounding in our context is useful to bring it to our awareness that we
 have like an interface and the tension firewall a load balancer inside your head
 which which tells us the smells are
-
-
-
-<!--
 
 In the desperation for life. Little matters but.
 

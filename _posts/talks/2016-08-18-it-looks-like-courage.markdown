@@ -8,7 +8,13 @@ cover: /static/it-looks-like-courage.jpg
 summary: Every true act of creation is risk.
 ---
 
-(Video coming soon)
+<div>
+  <a href="https://twitter.com/jddionisio/status/766317516796915712" target="_blank">
+    <img src="https://pbs.twimg.com/media/CqKBtrtWIAA-643.jpg" alt="fear of failure" />
+  </a>
+</div>
+
+<div style="text-align: center; font-family: sans-serif; font-weight: 900; font-size: 40px; color: #ddd; padding: 50px;">(Video coming soon)</div>
 
 The greatest limitation that keeps teams and individuals operating below their
 true creative capacity is not a lack of imagination or talent, but rather a lack
@@ -41,4 +47,4 @@ In this talk I translate these principles into how we go about the process of
 designing software, building teams, and developing plans. My aim is to give a
 framework that can help us all escape the temptation to imprison ourselves into
 coloring within the lines of other peoples success, and instead develop the
-courage to exercise our true creative potential.
+courage to exercise our true creative potential<b>.</b>
