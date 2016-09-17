@@ -4,7 +4,13 @@
 
 @charset 'utf-8';
 
-@import "colors", "easing", "nav-icon", "masthead", "fullscreen-menu", "article";
+@import "colors",
+        "easing",
+        "nav-icon",
+        "masthead",
+        "fullscreen-menu",
+        "article",
+        "about";
 
 $base-font-family : 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
 $base-font-size   :   16px;
@@ -38,7 +44,14 @@ html, body {
 }
 
 h3 {
-  margin: .5em 0;
+  margin: .5em 0 0;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: left;
+  opacity: 0.8;
+}
+h4 {
+  margin: 0;
   font-size: 25px;
   font-weight: 300;
   text-align: left;
@@ -184,10 +197,12 @@ b {
 a.logo {
   z-index: 999;
   position: absolute;
-  margin: 40px 60px;
+  top: 40px;
+  left: 60px;
   color: rgba(255,255,255,0.7);
   font-weight: 700;
   font-size: 30px;
+  text-align: left;
   line-height: .9em;
   b { color: #fff }
   &:hover { color: #fff }

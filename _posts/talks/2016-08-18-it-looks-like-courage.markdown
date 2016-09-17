@@ -4,7 +4,7 @@ title:  "It Looks Like Courage"
 date:   2016-08-17 00:00:00 +0000
 categories: talks
 permalink: talks/it-looks-like-courage
-cover: http://40.media.tumblr.com/938bda883a3173001a2ff4545dd056e3/tumblr_mrzw5cMGPb1re6xsco1_1280.jpg
+cover: /static/it-looks-like-courage.jpg
 summary: Every true act of creation is risk.
 ---
 

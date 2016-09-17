@@ -8,7 +8,7 @@ layout: base
     salema<b>.</b>
   </a>
 
-  <header xstyle="background-image: url({{ page.cover }}">
+  <header style="background-image: url({{ page.cover }})">
     <div>
       <h1 itemprop="name headline">{{ page.title }}</h1>
       <div class="lead">
@@ -16,12 +16,12 @@ layout: base
           {{ page.date | date: "%b %-d, %Y" }}
         </time>
         {% if page.author %}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          &middot; <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name">{{ page.author }}</span>
           </span>
         {% endif %}
         {% if page.summary %}
-          • <span>{{ page.summary }}</span>
+          &middot; <span>{{ page.summary }}</span>
         {% endif %}
       </div>
     </div>

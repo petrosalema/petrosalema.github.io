@@ -5,7 +5,7 @@ date:   0000-01-01 00:00:00 +0000
 category: talks
 permalink: talks/dream-big-think-small
 cover: https://images.unsplash.com/photo-1432265910742-819d660410b4?crop=entropy&dpr=2&fit=crop&fm=jpg&h=1350&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300
-summary: How to tackle big challenges
+summary: A heuristic for appraching big challenges
 ---
 Petro Salema.
 Their pilots were dropping from the sky like fruit flies.
