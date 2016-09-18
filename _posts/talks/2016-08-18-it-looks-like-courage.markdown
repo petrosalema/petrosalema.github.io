@@ -8,7 +8,7 @@ cover: /static/it-looks-like-courage.jpg
 summary: Every true act of creation is risk.
 ---
 
-<div>
+<div class="image">
   <a href="https://twitter.com/jddionisio/status/766317516796915712" target="_blank">
     <img src="https://pbs.twimg.com/media/CqKBtrtWIAA-643.jpg" alt="fear of failure" />
   </a>

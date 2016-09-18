@@ -43,7 +43,7 @@ article.article header {
   h1 {
     max-width: 650px;
     margin: 0 0 20px;
-    font-size: 70px;
+    font-size: 60px;
   }
   .lead {
     font-weight: 300;
@@ -195,5 +195,24 @@ article.article section {
     line-height: .5em;
     margin: 0;
     padding: 0.15em 0.1em 0.15em 0;
+  }
+}
+
+@media (max-width: 600px) {
+  article.article header {
+    h1 { font-size: 50px; }
+    .lead { font-size: 25px; }
+    div {
+      //border: 30px solid yellow;
+    }
+  }
+  article.article section {
+    padding: 25px 0;
+    p {
+      padding: 0 25px;
+      font-size: 20px;
+    }
+    .image, .video { padding: 0; }
+    blockquote { padding: 25px; }
   }
 }
