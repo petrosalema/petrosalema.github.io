@@ -6,13 +6,13 @@ permalink: /work/
 
 <h1>work<b>.</b></h1>
 
-<h3><a href="http://phonicscore.com/">PhonicScore Gmbh</a></h3>
-Angular Webapp
-
-<h3><a href="http://everjoin.us/">Everjoin Ltd</a></h3>
+<h3><a href="http://everjoin.us/">Everjoin</a></h3>
 <p>React Native Mobile App</p>
 
-<h3><a href="http://www.gentics.com/genticscms/index.de.html">Gentics/APA</a></h3>
+<h3><a href="http://phonicscore.com/">PhonicScore</a></h3>
+Angular Web App
+
+<h3><a href="http://www.gentics.com/genticscms/index.de.html">Gentics / Austrian Press Agency</a></h3>
 Aloha Editor Advanced JavasScript WYSIWYG Editor
 
 <!--

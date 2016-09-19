@@ -11,9 +11,23 @@ I am a <strong>React (Native)</strong> &amp; <strong>Angular</strong> expert who
 helps companies get from <strong>vision</strong> to <strong>version
 1.0</strong><b>.</b>
 
-The companies I partner with are all working to make a difference---using,
-software and design to bring the promises of tomorrow into the possibilities of
-today<b>.</b>
+The teams I work with are vested in making a difference&mdash;using software and
+design and product-thinking to bring the promises of tomorrow into the
+possibilities of today<b>.</b>
+
+What I bring to the team is expertise in mobile and web app development with
+JavasScript, user-centric design, and strategic positioning.
+    
+Successful apps are not built on the drive to recreate what is popular, but on a
+cultivated conviction about what differenciates you in the perspective of your
+user.
+
+Successs for me, therefore, goes far beyond getting the unit tests green.
+It's about delivering delight to your users; it's about getting to the market
+with a product that is worthy of your users' attention<b>.</b>
+
+If you are a company with a vision to bring something impactful to market. I
+would love to hear from you.
 
 <!--
 

@@ -22,10 +22,10 @@ summary: Every true act of creation is risk.
 
 The greatest limitation that keeps teams and individuals operating below their
 true creative capacity is not a lack of imagination or talent, but rather a lack
-in the ability to underwrite the risk that is unavoidable in the creative
-process.
+in the ability to underwrite the risk that is essential in the creative process.
 
-In other words: courage.
+One word that I think describes the capacity to underwrite risk in creative
+endevour is the word "courage."
 
 It feels safer to copy and fail, and be congratulated for having at least done
 it canonically "right," than it is to test unchartered ideas and fail, and be
