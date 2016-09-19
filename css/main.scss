@@ -10,7 +10,8 @@
         "masthead",
         "fullscreen-menu",
         "article",
-        "about";
+        "about",
+        "simple";
 
 $base-font-family : 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Open Sans', Arial, sans-serif;
 $base-font-size   :   16px;
@@ -60,11 +61,11 @@ h4 {
 a {
   color: $text-color;
   text-decoration: none;
-  transition: color .2s $easing, transform .6s $easing;
+  transition: color .2s $easing;
   outline: 0;
   &:hover {
-    color: $brand-color;
     text-decoration: none;
+    color: $brand-color;
   }
 }
 
@@ -90,8 +91,8 @@ b {
   padding: 200px 100px;
   background: $brand-color;
   font-size: 50px;
-  font-weight: 300;
-  text-align: center;
+  font-weight: 700;
+  text-align: left;
   color: #fff;
   overflow: hidden;
   &>div { position: relative }
@@ -111,14 +112,24 @@ b {
     background-image: url(../static/portrait4.png);
     -webkit-filter: contrast(0.7);
        -moz-filter: contrast(0.7);
-        filter: contrast(0.7);
+            filter: contrast(0.7);
+  }
+  a {
+    color: #fff;
+    background: $text-color;
+    padding: .05em .2em;
+    transition: color .2s $easing, background .6s $easing;
+    &:hover {
+      color: $text-color;
+      background: #fff;
+    }
   }
 }
 
 @media (max-width: 900px) {
   #about {
     font-size: 30px;
-    padding: 80px;
+    padding: 40px;
     &::before {
       opacity: 0.7;
     }
@@ -126,6 +137,12 @@ b {
 }
 
 .posts {
+  &::after {
+    content: '';
+    display: table;
+    float: none;
+    clear: both;
+  }
   margin: 0;
   padding: 0;
   list-style: none;

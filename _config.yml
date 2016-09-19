@@ -1,11 +1,11 @@
-title: From vision to version 1.0
+title: Petro Salema - React Native & Angular JavaScript expert
 
 description: > # this means to ignore newlines until "baseurl:"
-  Helping companies go from vision to version 1.0
+  Petro Salema. React Native/Angular Javascript and mobile expert. Helping companies go from vision to version 1.0
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "http://petrosalema.com" # the base hostname & protocol for your site
+url: "http://www.petrosalema.com" # the base hostname & protocol for your site
 
 exclude:
     - git

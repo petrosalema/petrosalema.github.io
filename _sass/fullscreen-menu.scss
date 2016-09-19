@@ -41,7 +41,7 @@
       }
     }
   }
-  #connect-icons {
+  .connect-icons {
     opacity: 0;
     transform: translateY(-200px);
     line-height: 120px;
@@ -52,7 +52,7 @@ body.nav-opened {
   overflow: hidden;
   #fullscreen-menu {
     transform: translateX(0);
-    nav ul li, #connect-icons {
+    nav ul li, .connect-icons {
       opacity: 1;
       transform: translateY(0);
       transition: 1s transform $easing, 1s opacity $easing;
@@ -63,12 +63,15 @@ body.nav-opened {
     }
   }
 }
-#connect-icons a {
-  svg { fill: #fff }
-  svg#twitter-icon { width: 40px }
-  svg#github-icon { width: 36px }
-  svg#speaking-icon { width: 44px }
-  &:hover svg { fill: $text-color }
+.connect-icons {
+  text-align: center;
+  a {
+    svg { fill: #fff }
+    svg#twitter-icon { width: 40px }
+    svg#github-icon { width: 36px }
+    svg#speaking-icon { width: 44px }
+    &:hover svg { fill: $text-color }
+  }
 }
 @media (max-height: 400px) {
   #fullscreen-menu nav ul li a {

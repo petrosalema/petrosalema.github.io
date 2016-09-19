@@ -1,0 +1,57 @@
+body#simple {
+  padding: 150px 100px;
+  font-weight: 300;
+  background: $brand-color;
+  color: #fff;
+  font-size: 40px;
+  h1 {
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  p {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    &:last-of-type { margin-bottom: 0; }
+  }
+  &>.connect-icons { padding-top: 50px; }
+  &::before {
+    z-index: -1;
+    opacity: 0.9;
+    content: '';
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 100%;
+    height: 100%;
+    background-size: auto 150%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url(../static/portrait4.png);
+    -webkit-filter: contrast(0.7);
+       -moz-filter: contrast(0.7);
+            filter: contrast(0.7);
+  }
+}
+@media (max-width: 600px) {
+  body#simple {
+    padding: 100px 50px 50px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 900px) {
+  body#simple {
+    padding: 100px 0 0;
+  }
+  body#simple p {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+  }
+  ul.posts li {
+    width: 100vw;
+    float: none;
+  }
+}
+

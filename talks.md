@@ -4,11 +4,6 @@ title: Talks
 permalink: /talks/
 ---
 
-<a href="/" class="logo">
-  petro<br/>
-  salema<b>.</b>
-</a>
-
 <h1>talks<b>.</b></h1>
 
 <ul class="posts">

@@ -5,7 +5,7 @@ date: 2014-03-01 00:00:00 +0000
 categories: talks
 permalink: talks/a-web-beyond-touch
 cover: https://raw.githubusercontent.com/petrosalema/a-web-beyond-touch/master/video-cover.jpg
-summary: Thinking of design when the screen is cannot be assumed
+summary: Designing interfaces when the screen cannot be assumed
 ---
 
 <div class="video">
