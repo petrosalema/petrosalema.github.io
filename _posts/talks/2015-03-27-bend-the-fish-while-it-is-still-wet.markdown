@@ -4,7 +4,7 @@ title:  "Bend The Fish While It Is Still Wet"
 date:   2015-03-27 00:00:00 +0000
 categories: talks
 permalink: talks/bend-the-fish-while-it-is-still-wet
-cover: /static/bend-the-fish-while-it-is-still-wet.png
+cover: /static/bend-the-fish-while-it-is-still-wet.jpg
 summary: How East Africa leap-frogged the world in mobile fin-tech
 ---
 
