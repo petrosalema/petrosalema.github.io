@@ -71,3 +71,9 @@
     &:hover svg { fill: $text-color }
   }
 }
+
+@media (max-width: 900px) {
+  #fullscreen-menu nav ul {
+    font-size: 20px;
+  }
+}

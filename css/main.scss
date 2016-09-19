@@ -153,9 +153,9 @@ b {
         transition: transform .5s $slow-easing;
         h2 {
           margin: 0 0 .2em;
-          line-height: 1em;
+          line-height: 1.1em;
           font-weight: 700;
-          font-size: 60px;
+          font-size: 40px;
           font-family: 'Playfair Display', serif;
           color: #fff;
         }
@@ -184,7 +184,9 @@ b {
         background-color: $text-color;
         transition: transform .5s $slow-easing;
         transform: scale(1.0);
-        -xwebkit-filter: brightness(100%) contrast(100%) grayscale(100%);
+        -webkit-filter: brightness(120%) contrast(100%) grayscale(100%);
+           -moz-filter: brightness(120%) contrast(100%) grayscale(100%);
+                filter: brightness(120%) contrast(100%) grayscale(100%);
         background-image: url(http://static1.squarespace.com/static/569fe8405a566853bcb918f6/569fe88789a60ab966e26130/56be68b63c44d89a5811be09/1458054955158/?format=1500w);
       }
       &:hover{
@@ -205,18 +207,6 @@ b {
   }
 }
 
-@media (max-width: 900px) {
-  .posts li a .post-details h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 900px) {
-  .posts li {
-    width: 100vw;
-  }
-}
-
 a.logo {
   z-index: 999;
   position: absolute;
@@ -229,4 +219,16 @@ a.logo {
   line-height: .9em;
   b { color: #fff }
   &:hover { color: #fff }
+}
+
+@media (max-width: 900px) {
+  .posts li {
+    width: 100vw;
+    a .post-details h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  a.logo { left: 40px; }
 }
