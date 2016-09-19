@@ -11,18 +11,18 @@ permalink: /work/
 
 <h1>work<b>.</b></h1>
 
-<h3 style="text-align: center"><a href="http://phonicscore.com/">PhonicScore Gmbh<b>:</b></a></h3>
-<div>Designing new webapp with Angular</div>
+<h3 style="text-align: center"><a href="http://phonicscore.com/">PhonicScore Gmbh</a></h3>
+<div>Angular Webapp</div>
 
 &bull;
 
-<h3 style="text-align: center"><a href="http://everjoin.us/">Everjoin Ltd<b>:</b></a></h3>
-<div>Designing Mobile using React Native</div>
+<h3 style="text-align: center"><a href="http://everjoin.us/">Everjoin Ltd</a></h3>
+<div>React Native Mobile App</div>
 
 &bull;
 
-<h3 style="text-align: center"><a href="http://www.gentics.com/genticscms/index.de.html">Gentics/APA<b>:</b></a></h3>
-<div>Leading the developing of Aloha Editor</div>
+<h3 style="text-align: center"><a href="http://www.gentics.com/genticscms/index.de.html">Gentics/APA</a></h3>
+<div>Aloha Editor Advanced JavasScript WYSIWYG Editor</div>
 
 <!--
 
