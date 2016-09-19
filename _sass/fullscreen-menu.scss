@@ -62,6 +62,7 @@
   }
 }
 #connect-icons {
+  line-height: 120px;
   transition: transform 1s $easing .4s, opacity 1s $easing .4s;
   a {
     svg { fill: #fff }
