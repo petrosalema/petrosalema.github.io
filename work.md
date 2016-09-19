@@ -7,13 +7,13 @@ permalink: /work/
 <h1>work<b>.</b></h1>
 
 <h3><a href="http://phonicscore.com/">PhonicScore Gmbh</a></h3>
-<div>Angular Webapp</div>
+Angular Webapp
 
 <h3><a href="http://everjoin.us/">Everjoin Ltd</a></h3>
-<div>React Native Mobile App</div>
+<p>React Native Mobile App</p>
 
 <h3><a href="http://www.gentics.com/genticscms/index.de.html">Gentics/APA</a></h3>
-<div>Aloha Editor Advanced JavasScript WYSIWYG Editor</div>
+Aloha Editor Advanced JavasScript WYSIWYG Editor
 
 <!--
 

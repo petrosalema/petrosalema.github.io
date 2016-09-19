@@ -6,13 +6,19 @@ body#simple {
   font-size: 40px;
   h1 {
     margin: 0;
+    padding-top: 30px;
     padding-bottom: 50px;
     text-align: center;
   }
-  p, h3, div {
+  p {
     max-width: 700px;
     margin: 0 auto 50px;
     &:last-of-type { margin-bottom: 0; }
+  }
+  h3 {
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 1;
   }
   &>.connect-icons { padding-top: 50px; }
   &::before {
@@ -33,6 +39,16 @@ body#simple {
        -moz-filter: contrast(0.7);
             filter: contrast(0.7);
   }
+  h3 a {
+    color: #fff;
+    background: $text-color;
+    padding: .1em .2em;
+    transition: color .2s $easing, background .6s $easing;
+    &:hover {
+      color: $text-color;
+      background: #fff;
+    }
+  }
 }
 @media (max-width: 600px) {
   body#simple {
@@ -44,7 +60,8 @@ body#simple {
   body#simple {
     padding: 100px 0 0;
   }
-  body#simple p {
+  body#simple p,
+  body#simple h3 {
     padding-left: 40px;
     padding-right: 40px;
     font-size: 30px;
