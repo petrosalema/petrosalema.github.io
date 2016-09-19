@@ -19,6 +19,16 @@ body#simple {
     max-width: 700px;
     margin: 0 auto;
     opacity: 1;
+    a {
+      color: #fff;
+      background: $text-color;
+      padding: .1em .2em;
+      transition: color .2s $easing, background .6s $easing;
+      &:hover {
+        color: $text-color;
+        background: #fff;
+      }
+    }
   }
   &>.connect-icons { padding-top: 50px; }
   &::before {
@@ -38,16 +48,6 @@ body#simple {
     -webkit-filter: contrast(0.7);
        -moz-filter: contrast(0.7);
             filter: contrast(0.7);
-  }
-  h3 a {
-    color: #fff;
-    background: $text-color;
-    padding: .1em .2em;
-    transition: color .2s $easing, background .6s $easing;
-    &:hover {
-      color: $text-color;
-      background: #fff;
-    }
   }
 }
 @media (max-width: 600px) {
