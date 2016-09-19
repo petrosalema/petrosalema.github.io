@@ -2,6 +2,33 @@
 <html>
   {% include head.html %}
   <style>body a:hover { color: #fff }</style>
+    <style>
+      @media (max-width: 900px) {
+        body#about {
+          padding: 0;
+        }
+        body#about a.logo {
+          position: absolute;
+          top: 0px;
+        }
+        body#about::before {
+          display: none;
+        }
+        body#about h1 {
+          min-height: 400px;
+          line-height: 400px;
+        }
+        body#about p {
+          padding-left: 40px;
+          padding-right: 40px;
+          font-size: 30px;
+        }
+        ul.posts li {
+          width: 100vw;
+          float: none;
+        }
+      }
+    </style>
   <body id="about">
     <span class="nav-icon"><b></b></span>
     <div class="content">{{ content }}</div>
