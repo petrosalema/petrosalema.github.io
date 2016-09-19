@@ -9,7 +9,7 @@ body#simple {
     padding-bottom: 50px;
     text-align: center;
   }
-  p {
+  p, h3, div {
     max-width: 700px;
     margin: 0 auto 50px;
     &:last-of-type { margin-bottom: 0; }
