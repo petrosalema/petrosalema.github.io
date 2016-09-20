@@ -13,7 +13,7 @@ helps companies get from <strong>vision</strong> to <strong>version
 1.0</strong><b>.</b>
 
 The teams I work with are vested in making a difference&mdash;using software and
-design and product-thinking to bring the promises of tomorrow into the
+design and product-thinking to bring the promises of tomorrow to the
 possibilities of today<b>.</b>
 
 What I bring to the team is expertise in mobile and web app development with
