@@ -227,10 +227,6 @@ a.logo {
     }
   }
 }
-@media (max-width: 600px) {
-  a.logo { left: 40px; }
-}
-
 canvas {
   position: absolute;
   top: 0;
@@ -240,4 +236,25 @@ canvas {
 }
 body.nav-opened canvas {
   visibility: hidden;
+}
+.article-footer {
+  padding: 50px 40px 100px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  a {
+    color: #fff;
+    background: $text-color;
+    padding: .05em .2em;
+    line-height: 1.5em;
+    transition: color .2s $easing, background .6s $easing;
+    &:hover {
+      color: $text-color;
+      background: $brand-color;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  a.logo { left: 40px; }
 }
