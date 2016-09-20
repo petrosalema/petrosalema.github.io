@@ -40,7 +40,7 @@
       content: '';
       display: block;
       position: absolute;
-      top: 0;
+      bottom: 0;
       right: -10vh;
       width: 100vw;
       height: 100%;
@@ -48,6 +48,7 @@
       background-repeat: no-repeat;
       background-position: right 10vh;
       background-image: url(../static/portrait.png);
+      transition: background-size .2s ease;
       -webkit-filter: contrast(0.7);
          -moz-filter: contrast(0.7);
               filter: contrast(0.7);

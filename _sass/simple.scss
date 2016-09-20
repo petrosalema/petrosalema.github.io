@@ -45,6 +45,7 @@ body#simple {
     background-repeat: no-repeat;
     background-position: right top;
     background-image: url(../static/portrait5.png);
+    transition: background-size .2s ease;
     -webkit-filter: contrast(0.7);
        -moz-filter: contrast(0.7);
             filter: contrast(0.7);
