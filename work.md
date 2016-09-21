@@ -6,6 +6,9 @@ permalink: /work/
 
 <h1>featured work<b>.</b></h1>
 
+Feel free to <a href="/contact">contact me</a> if you would like see video or
+screen captures of my work<b>.</b>
+
 <h3><a href="http://everjoin.us/">Everjoin</a></h3>
 React Native mobile app
 

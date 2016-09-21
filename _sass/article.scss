@@ -13,7 +13,10 @@ article.article {
       height: 390px;
     }
   }
-  p a { border-bottom: 3px solid rgba(0,0,0,0.1); }
+  p a {
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    &:hover { color: $brand-color; }
+  }
 }
 
 article.article header {
