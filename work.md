@@ -1,10 +1,10 @@
 ---
 layout: simple
-title: Work
+title: Work - Petro Salema.
 permalink: /work/
 ---
 
-<h1>work<b>.</b></h1>
+<h1>featured work<b>.</b></h1>
 
 <h3><a href="http://everjoin.us/">Everjoin</a></h3>
 React Native mobile app

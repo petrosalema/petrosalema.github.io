@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: About
+title: About - Petro Salema.
 permalink: /about/
 ---
 

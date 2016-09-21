@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Talks
+title: Talks - Petro Salema.
 permalink: /talks/
 ---
 

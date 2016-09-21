@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Contact
+title: Contact - Petro Salema.
 permalink: /contact/
 ---
 
