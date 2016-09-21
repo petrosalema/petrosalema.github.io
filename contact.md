@@ -11,9 +11,9 @@ permalink: /contact/
 <p>Vienna, Austria <span style="opacity:0.7">(but available worldwide)</span></p>
 <p>
 <script><!--
-var a='office';var b='petrosalema.com';
+var a='contact';var b='petrosalema.com';
 document.write(a+'@'+b);
-//--></script><noscript>office&nbsp;[at]&nbsp;petrosalema&nbsp;[dot]&nbsp;com</noscript>
+//--></script><noscript>contact&nbsp;[at]&nbsp;petrosalema&nbsp;[dot]&nbsp;com</noscript>
 </p>
 <p>+43 6991 8226590</p>
 
