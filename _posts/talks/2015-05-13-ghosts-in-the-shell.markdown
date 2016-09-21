@@ -77,6 +77,8 @@ fly.
 Watch the video to see how fight or flight has everything to do with the future
 of user interface design: invisible interfaces; interfaces that think<b>.</b>
 
+This talk was first given at the <a href="https://beyondtellerrand.com/2015/">2015 Beyond Tellerrand Conference.</a>
+
 <!--
 
 put them up by our flight and in that moment we have this

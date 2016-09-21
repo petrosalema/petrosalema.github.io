@@ -28,3 +28,6 @@ within our reach—to enable it. And the key to this is solving smaller problems
 We'll consider how solving small and hard problems is what brings about
 capabilities, and it is capabilities—more so than vision—that is the link
 between our imagination and reality<b>.</b>
+
+This talks was first given at the <a href="https://fronteers.nl/congres/2014">2014 Fronteers Conference.</a>
+

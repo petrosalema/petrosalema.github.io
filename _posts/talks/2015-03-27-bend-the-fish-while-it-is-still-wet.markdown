@@ -34,4 +34,6 @@ reality of everyday life in East Africa.
 These developments have been well documented, but it may surprise us to consider
 that the mobile money revolution in East Africa was not built on smartphones. It
 was built on dump/feature phones that existed before the first iPhone came into
-market, and there are useful lessons to be learned in this<b>.</b>
+market, and there are useful lessons to be learned in this.
+
+This talk was first given at the <a href="http://mobilism.nl/2015">2015 Mobilism Conference.</a>

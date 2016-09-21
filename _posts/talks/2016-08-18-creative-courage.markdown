@@ -1,11 +1,11 @@
 ---
 layout: talk
-title:  "It Looks Like Courage"
-date:   2016-08-17 00:00:00 +0000
+title: Creative Courage
+date: 2016-08-17 00:00:00 +0000
 categories: talks
-permalink: talks/it-looks-like-courage
+permalink: talks/creative-courage
 cover: /static/it-looks-like-courage.jpg
-summary: Every true act of creation is risk.
+summary: Why avoiding risk is the riskiest strategy.
 ---
 
 <div class="image" style="text-align: center;">
@@ -52,3 +52,5 @@ designing software, building teams, and developing plans. My aim is to give a
 framework that can help us all escape the temptation to imprison ourselves into
 coloring within the lines of other peoples success, and instead develop the
 courage to exercise our true creative potential<b>.</b>
+
+This talk was first given at the <a href="http://abstractions.io/">2016 Abstractions Conference.</a>
