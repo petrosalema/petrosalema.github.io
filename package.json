@@ -1,0 +1,32 @@
+{
+  "name": "petro-salema",
+  "version": "1.0.0",
+  "description": "React (Native) and Angular export - helping companies get from vision to version 1.0",
+  "main": "index.html",
+  "scripts": {
+    "preinstall": "echo https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrosalema/petrosalema.github.io.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Angular",
+    "Petro",
+    "Salema",
+    "Design",
+    "JavaScript"
+  ],
+  "author": "Petro Salema",
+  "bugs": {
+    "url": "https://github.com/petrosalema/petrosalema.github.io/issues"
+  },
+  "homepage": "https://github.com/petrosalema/petrosalema.github.io#readme",
+  "devDependencies": {
+    "jekyll": "^3.0.0-beta1"
+  }
+}
