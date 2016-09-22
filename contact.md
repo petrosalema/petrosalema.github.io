@@ -6,7 +6,7 @@ permalink: /contact/
 
 <h1>contact<b>.</b></h1>
 
-<p>Petro Salema</p>
+<p>Petro Salema <span style="opacity:0.7">(@petrosalema)</span></p>
 <p>App development &amp; Product strategy</p>
 <p>Vienna, Austria <span style="opacity:0.7">(but available worldwide)</span></p>
 <p>
