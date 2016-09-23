@@ -91,15 +91,15 @@ article.article section strong {
   </p>
 
   <iframe
-    src="https://drive.google.com/file/d/0B4NRm_cFELtTUzdDMzctN29WeFk/preview"
+    src="https://drive.google.com/file/d/0B4NRm_cFELtTYV9lX0JlNEltcEU/preview"
     width="600"
-    height="431"
+    height="335"
     frameborder="0"
     allowfullscreen
     class="box"
     style="
       width: 600px;
-      height: 431px;
+      height: 335px;
       max-width: 100%;
     "
   ></iframe>
