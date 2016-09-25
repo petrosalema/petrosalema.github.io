@@ -43,8 +43,8 @@ if (!window.requestAnimationFrame) {
         width: w,
         height: h,
         velocity: 0.1,
-        length: w / 10,
-        distance: w / 5,
+        length: 100,
+        distance: w / 10,
         radius: w,
         stars: []
       },
@@ -189,16 +189,15 @@ if (!window.requestAnimationFrame) {
   };
 })($, window);
 
-// Init plugin
 $('canvas').each(function (i, canvas) {
   var $canvas = $(canvas);
   $canvas.constellation({
     star: {
       width: 5,
-      color: $canvas.data('color') || 'rgba(0, 0, 0, .3)'
+      color: $canvas.data('dots') || $canvas.data('color') || 'rgba(0, 0, 0, .3)'
     },
     line: {
-      color: $canvas.data('color') || 'rgba(0, 0, 0, .3)'
+      color: $canvas.data('lines') || $canvas.data('color') || 'rgba(0, 0, 0, .3)'
     },
     radius: 100
   });

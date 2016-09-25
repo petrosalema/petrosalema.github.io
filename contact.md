@@ -4,6 +4,12 @@ title: Contact - Petro Salema.
 permalink: /contact/
 ---
 
+<canvas
+  style="max-height: 60vh;"
+  data-lines="rgba(255,255,255,.8)"
+  data-dots="rgba(255,255,255,.2)"
+></canvas>
+
 <h1>contact<b>.</b></h1>
 
 <p>Petro Salema <span style="opacity:0.7">(@petrosalema)</span></p>
@@ -19,6 +25,8 @@ document.write(a+'@'+b);
 
 <style>
 body#simple p {
+  position: relative;
+  z-index: 1;
   margin-bottom: 0;
   font-size: 20px;
   text-align: center;

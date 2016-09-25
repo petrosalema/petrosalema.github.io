@@ -4,6 +4,12 @@ title: Work - Petro Salema.
 permalink: /work/
 ---
 
+<canvas
+  style="max-height: 60vh;"
+  data-lines="rgba(255,255,255,.8)"
+  data-dots="rgba(255,255,255,.2)"
+></canvas>
+
 <h1>featured work<b>.</b></h1>
 
 Feel free to <a href="/contact">contact me</a> if you would like see video or

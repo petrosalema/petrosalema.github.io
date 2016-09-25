@@ -4,6 +4,28 @@ title: About - Petro Salema.
 permalink: /about/
 ---
 
+<style>
+body#simple::before {
+  z-index: -1;
+  opacity: 0.9;
+  content: '';
+  display: block;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 100%;
+  height: 100%;
+  background-size: auto 150%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url(../static/portrait5.png);
+  transition: background-size .2s ease;
+  -webkit-filter: contrast(0.7);
+     -moz-filter: contrast(0.7);
+          filter: contrast(0.7);
+}
+</style>
+
 <h1>about<b>.</b></h1>
 
 My name is Petro Salema<b>.</b><br/>
@@ -26,9 +48,6 @@ user.
 Successs for me, therefore, goes far beyond getting the unit tests green.
 It's about delivering delight to your users; it's about getting to the market
 with a product that is worthy of your users' attention<b>.</b>
-
-If you are a company with a vision to bring something impactful to market. I
-would love to hear from you.
 
 <!--
 

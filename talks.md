@@ -4,6 +4,12 @@ title: Talks - Petro Salema.
 permalink: /talks/
 ---
 
+<canvas
+  style="max-height: 60vh;"
+  data-lines="rgba(255,255,255,.8)"
+  data-dots="rgba(255,255,255,.2)"
+></canvas>
+
 <h1>talks<b>.</b></h1>
 
 <ul class="posts">
