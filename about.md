@@ -28,8 +28,6 @@ body#simple::before {
 
 <h1>about<b>.</b></h1>
 
-My name is Petro Salema<b>.</b><br/>
-
 I am a <strong>React (Native)</strong> &amp; <strong>Angular</strong> expert who
 helps companies get from <strong>vision</strong> to <strong>version
 1.0</strong><b>.</b>
