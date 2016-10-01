@@ -6,7 +6,7 @@ permalink: /talks/
 
 <canvas
   style="max-height: 60vh;"
-  data-lines="rgba(255,255,255,.8)"
+  data-lines="rgba(255,255,255,.5)"
   data-dots="rgba(255,255,255,.2)"
 ></canvas>
 
