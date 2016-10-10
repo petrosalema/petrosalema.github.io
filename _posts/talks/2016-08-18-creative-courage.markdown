@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Creative Courage
-date: 2016-08-17 00:00:00 +0000
+date: 2016-08-18 00:00:00 +0000
 categories: talks
 permalink: talks/creative-courage
 cover: /static/it-looks-like-courage.jpg
