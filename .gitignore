@@ -1,7 +1,7 @@
 *.swp
+*.log
 .DS_Store
-_site
 .sass-cache
 .jekyll-metadata
 node_modules
-npm-debug.log
+_site
