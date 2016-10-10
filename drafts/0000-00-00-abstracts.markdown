@@ -1,10 +1,9 @@
 ---
 layout: talk
-title:  "A Web Beyond Touch"
+title:  "About Abstractions"
 date: 0000-01-01 0:00:00 +0000
 categories: talks
 permalink: articles/about-abstractions
-cover: https://raw.githubusercontent.com/petrosalema/a-web-beyond-touch/master/video-cover.jpg
 summary: ""
 ---
 
