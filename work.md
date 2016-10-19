@@ -15,8 +15,9 @@ permalink: /work/
 Feel free to <a href="/contact">contact me</a> if you would like see video or
 screen captures of my work<b>.</b>
 
-<h3><a href="http://everjoin.us/">UN</a></h3>
-Developing new visual identify for Vienna Energy Forum
+<h3><a href="http://everjoin.us/">United Nations</a></h3>
+Developing new visual identify for United Nations Industrial Development
+Organization for the Vienna Energy Forum that will take place in 2017
 
 <h3><a href="http://everjoin.us/">Everjoin</a></h3>
 React Native mobile app
