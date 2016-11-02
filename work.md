@@ -12,8 +12,8 @@ permalink: /work/
 
 <h1>featured work<b>.</b></h1>
 
-Feel free to <a href="/contact">contact me</a> if you would like see video or
-screen captures of my work<b>.</b>
+For a sneek peak at what will be launching soon, take a look at these
+<a href="/new-things">new things<b>...</b></a>
 
 <h3><a href="http://everjoin.us/">United Nations</a></h3>
 Developing new visual identify for United Nations Industrial Development
