@@ -40,10 +40,10 @@ What I bring to the team is expertise in mobile and web app development with
 JavasScript, user-centric design, and strategic positioning.
     
 Successful apps are not built on the drive to recreate what is popular, but on a
-cultivated conviction about what differenciates you in the perspective of your
+cultivated conviction about what differentiates you in the perspective of your
 user.
 
-Successs for me, therefore, goes far beyond getting the unit tests green.
+Success for me, therefore, goes far beyond getting the unit tests green.
 It's about delivering delight to your users; it's about getting to the market
 with a product that is worthy of your users' attention<b>.</b>
 
