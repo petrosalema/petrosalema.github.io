@@ -5,7 +5,7 @@ date:   2014-10-10 00:00:00 +0000
 category: talks
 permalink: talks/dream-big-think-small
 cover: https://camo.githubusercontent.com/13f81cd66b54ca5cfd5df14bf66019ba957a2cfe/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f427a6d42662d46494541415a3761392e6a70673a6c61726765
-summary: A heuristic for appraching big challenges
+summary: A heuristic for approaching big challenges
 ---
 
 <div class="video">
