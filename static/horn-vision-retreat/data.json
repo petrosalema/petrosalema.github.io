@@ -1,0 +1,232 @@
+{
+  "1": {
+    "see": "new-comers invited for dinner right after the service",
+    "not": "new-comers attending for a month without having had such an invitation",
+    "todo": [
+      "Encourages first safe contact. ie: get people to meet guests at neutral place like cafe",
+      "Gets people to sit down with guests at the church to break ice",
+      "Has elders bring together new-comers and church members to a meal",
+      "Teaches about biblical hospitality and connect to church vision, practices, and values, and teach how-to"
+    ]
+  },
+  "2": {
+    "see": "a committed group of people coming together to pray for the church and the city",
+    "not": "people just showing up inconsistently or just praying for their own needs",
+    "todo": [
+      "Provides an opportunity through a consistant prayer meeting",
+      "Teaches about the importance of prayer and how to become a more prayerful, and how to pray",
+      "Prays in faith by earnestly asking for very specific and big things (tangible things)",
+      "Prays for the 'trip to horn'",
+      "Prays prayers worthy of coperate prayer meeting",
+      "Takes tangible steps towards answers",
+      "Celebrates answered prayers"
+    ]
+  },
+  "3": {
+    "see": "people coming to church with an intense desire to hear the apostle’s teaching",
+    "todo": [
+      "Uses thought-provoking language",
+      "Never uses 'Christianese' in our public communication",
+      "Teaches the fundamentals compellingly",
+      "Balances meat and milk",
+      "Promotes the teachhing series and arches"
+    ]
+  },
+  "4": {},
+  "5": {
+    "see": "the Reckmann’s hosting an international university student for dinner in their home",
+    "not": "just people hosting those they are familiar with, or people just meeting in restaurants",
+    "dependencies": 7,
+    "todo": [
+      "Has it's young people connect families to university students for meals"
+    ]
+  },
+  "6": {
+    "see": "a group of ladies from the Chapel playing with children at an orphanage in Vienna",
+    "not": "only getting together for a chit-chat, and not only serving Chapel children",
+    "todo": [
+      "All it's ministries have an outward-focused component",
+      "Partners with others doing outreach and service",
+      "Asks it's ministries what they will commit to doing that is outward-focused",
+      "Asks and provides resources for what is committed to"
+    ]
+  },
+  "7": {
+    "see": "no one show up on Sunday with no other engagement in a\ndiscipleship meeting with the church elsewhere in the week.",
+    "dependencies": 1,
+    "todo": [
+      "Involves every member in a discipleship group in the week at a minimum",
+      "Defines a clear dynamic for a healtyh life group ('it's an organism')",
+      "Regularly trains facilitators, and imparts principles to them"
+    ]
+  },
+  "8": {
+    "see": "musicians, greeters, teachers, deacons, and elders, all praying\ntogether before the church service",
+    "not": "just have elders praying alone while ministers are busy outside\nin the hallway and starting the service without prayer",
+    "todo": [
+      "Schedules the hour before service to take the Sunday Service team needs into consideration",
+      "Defines culture of a sunday service team",
+      "Incoperates 3:16 as component of the serviec prep"
+    ]
+  },
+  "9": {
+    "see": "the youth participating in leading the church in worship",
+    "not": "just sitting to hear the adults up front",
+    "todo": [
+      "Signs up youth to assis as apprentices in the Sunday Service team",
+      "Involves youth in leading in their own youth events"
+    ]
+  },
+  "10": {
+    "see": "multiple non-believers at every Sunday service",
+    "not": "just the usual set of familiar Christian visitors.",
+    "dependencies": "2 3 6"
+  },
+  "11": {
+    "see": "Alain, Daniel, Jerry, Sasha, Ben, Matthew preaching",
+    "not": "just Brian and guest speakers"
+  },
+  "12": {
+    "see": "a church plant at Donau Turn",
+    "not": "just Kagraner Platz forever",
+    "dependencies": "13"
+  },
+  "13": {
+    "see": "a second service in the 22nd district",
+    "not": "just an afternoon service",
+    "dependencies": "10",
+    "todo": [
+      "Sees 80% capacity (140) regulary"
+    ]
+  },
+  "14": {
+    "see": "every member of the Chapel able to precisely state where (and how)\nthey are serving (with their spiritual gifts)",
+    "not": "just receiving without\ngiving of themselves.",
+    "todo": [
+      "Conducts a membership program",
+      "Only inducts members who have demonstrated consistent presence in discipleship / life groups",
+      "Regularly prunes it's membership role",
+      "Encourages out-of-the-box minstry that is within the scope of the vision"
+    ]
+  },
+  "15": {
+    "see": "every person who walks into the church be greeted with their name\nand offered something to drink",
+    "not": "being left to find their own seat.",
+    "todo": [
+      "Dedicates someone to do welcome every Sunday",
+      "Teaches the deacons how to welcome people into the gathering",
+      "Recognizes new-comers",
+      "Delays cleaning up to be after fellowship time",
+      "None of the leaders engage in 'business' but reach out to new people"
+    ]
+  },
+  "16": {
+    "see": "young people explaining their faith to their friends at school not:\nbeing passive undercover Christians",
+    "todo": [
+      "Teaches kids through teen connection group",
+      "Teaches kids through teen Alpha",
+      "Teaches kids through Youth Nights",
+      "Youth leaders encourage youth to invite their friends to events"
+    ]
+  },
+  "17": {
+    "see": "every hospitalized member visited by at least one member of the\nchurch.",
+    "dependencies": 7
+  },
+  "18": {
+    "see": "people needing to turn down multiple offers of help when a need\narises.",
+    "not": "having people fend for themselves, or relying only on a\nsingle friend.",
+    "dependencies": 7
+  },
+  "19": {
+    "see": "a non-believer in each life group.",
+    "not": "any group constantly consisting of only Christians",
+    "dependencies": "6 7"
+  },
+  "20": {
+    "see": "expatriates from the UN being baptized by the Chapel at the Donau.",
+    "not": "just baptizing Christians who have been late to be baptized.",
+    "dependencies": "10 19"
+  },
+  "21": {
+    "see": "a group of friends going to clean a shut-ins’ apartment",
+    "not": "only showing faint concern and doing nothing about it.",
+    "dependencies": 7
+  },
+  "22": {
+    "see": "more cross-cultural locals (long-term expats) at Sunday services\nthan transient expatriates.",
+    "todo": [
+      "Celebrates it's cultural richness",
+      "Promotes the church through media everwhere",
+      "Celebrates it's cultural richness"
+    ]
+  },
+  "23": {
+    "see": "Vic and Oki creating thought-provoking videos to challenge people\nin Vienna to wrestle about matters of faith. not: 'ignoring people’s\ngifting.",
+    "dependencies": 4,
+    "todo": [
+      "Involves creative people in communication"
+    ]
+  },
+  "24": {
+    "see": "young adults inviting new university student to a\n“welcoming-to-Vienna” season of gathering (eg: iCafe).",
+    "dependencies": 6
+  },
+  "25": {
+    "see": "diplomats from the UN coming to a “get-connected” dinner.",
+    "not": "passively waiting for them to come to us.",
+    "dependencies": "6 20 22"
+  },
+  "26": {
+    "see": "a place for the Chapel where members can meet and hang out with\neach other after work.",
+    "dependencies": "12 13",
+    "todo": [
+      "Tranforms IBCV downstairs to something like cafe Capser"
+    ]
+  },
+  "27": {
+    "see": "a venue for the Chapel where people with no affiliation with Jesus\ncan hang out and work.",
+    "dependencies": 26
+  },
+  "28": {
+    "see": "people openly addressing real issues of their lives in community.",
+    "not": "shallow or abstract discussions that never get personal.",
+    "dependencies": 7
+  },
+  "29": {
+    "see": "Calvin choosing to be a missionary.",
+    "dependencies": "3 7 9 16"
+  },
+  "30": {
+    "see": "a church member introduce a new-comer to another church member at\nSunday service.",
+    "not": "members speaking only with people they feel comfortable with.",
+    "dependencies": "1 15"
+  },
+  "31": {
+    "see": "peer groups inviting other peer groups to join them in activities.",
+    "not": "isolating themselves in a Christian bubble.",
+    "dependencies": "1 6"
+  },
+  "32": {
+    "see": "our church trying new things, failing, and getting back up to try\nnew things again.",
+    "not": "doing the same thing to get by with the status-quo, or giving up.",
+    "todo": [
+      "Records failues as an indication of risk taking"
+    ]
+  },
+  "33": {
+    "see": "the Chapel holding seminars geared towards helping Christians and\nnon-Christians alike through biblical principles.",
+    "not": "just topic that seem to help the church.",
+    "dependencies": "3 6 10 34"
+  },
+  "34": {
+    "see": "ICV collaborating to hold seminars and events with other churches.",
+    "not": "just inviting people from other churches.",
+    "dependencies": "31"
+  },
+  "35": {
+    "see": "people from all walks of life finding their way to the Chapel.",
+    "not": "just appealing to the unchurched.",
+    "dependencies": "1 3 22 25 30"
+  }
+}
