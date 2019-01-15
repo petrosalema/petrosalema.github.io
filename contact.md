@@ -21,7 +21,6 @@ var a='contact';var b='petrosalema.com';
 document.write(a+'@'+b);
 //--></script><noscript>contact&nbsp;[at]&nbsp;petrosalema&nbsp;[dot]&nbsp;com</noscript>
 </p>
-<p>+43 6991 8226590</p>
 
 <style>
 body#simple p {
