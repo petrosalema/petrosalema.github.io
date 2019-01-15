@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/petrosalema/petrosalema.github.io#readme",
   "devDependencies": {
-    "jekyll": "^3.0.0-beta1"
+    "jekyll": "3.6.3"
   }
 }
